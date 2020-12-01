@@ -1,0 +1,2488 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta name="language" content="ru-ru" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0,maximum-scale=1.0, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="theme-color" content="#273149">
+    <meta property="og:site_name" content="SPARK" />
+    <meta name="referrer" content="always" />
+    <title>SPARK — платформа для общения малого и среднего бизнеса</title>
+    <meta property="og:title" content="SPARK — платформа для общения малого и среднего бизнеса" />
+    <meta id="spark-meta-keywords" name="keywords" content="Стартапы, современные проекты, набор в команду стартапов, вакансии стартапов, инвесторы, инвестиции в стартапы">
+        <link rel="canonical" href="https://spark.ru/" />
+        <link rel="amphtml" href="https://amp.spark.ru/" />
+        <meta id="spark-meta-description" name="description" property="og:description" content="Сообщество предпринимателей, специалистов и инвесторов для обмена опытом и поиска партнеров">
+    <meta id="spark-meta-image" name="image" property="og:image"  content="https://spark.ru/public/img/og-image-537.png" />
+    <link id="spark-link-image" rel="image_src" href="https://spark.ru/public/img/og-image.png" />
+                                <base href="https://spark.ru/" />
+    <link rel="icon" type="image/png" href="/public/img/favicon.png?v=2" id="favicon" />
+    <link rel="manifest" href="/public/json/gcm-manifest.json">
+    <script src="/public/js/intersection.js"></script>
+    <script src="/public/build/full.js?v=1557794979"></script>
+    <script src="/public/build/spark.js?v=1586328557"></script>
+        <script src="https://yastatic.net/pcode/adfox/loader.js" crossorigin="anonymous"></script>
+    </head>
+<body>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700&amp;subset=cyrillic">
+    <link rel="stylesheet" type="text/css" media="all" href="/public/build/spark.css?v=1587650320" />
+                    <!-- Google Tag Manager -->
+    <script>
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'}
+      );var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-KLNKLFF');
+    </script>
+    <noscript>
+      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KLNKLFF" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager -->
+        <script>
+      // Document ready
+      function ready(callback) {
+        if (document.readyState!='loading') callback();
+        else if (document.addEventListener) document.addEventListener('DOMContentLoaded', callback);
+        else document.attachEvent('onreadystatechange', function(){ if(document.readyState=='complete') callback(); });
+      }
+			window.uid = 0;
+			window.uToken = '0a9a1210dee2f1049aa25049ea9950e5';
+          </script>
+    <div id="utils" class="hidden">
+        <iframe name="transport" id="transport_frame"></iframe>
+        <form class="ajaxfree" id="transport_form" method="post" enctype="multipart/form-data"  target="transport" action="/ajax/transport" accept-charset="utf-8">
+            <input type="file" name="files" id="transportInput" accept="image/jpeg,image/gif,image/png"/>
+        </form>
+    </div>
+    <div class="process_loader" id="spark-process-loader"></div>
+        <div id="body">
+                
+<div class="header no-projects" id="spark-site-header">
+    <div class="center-col clear" id="head_center">
+
+        
+            <a href="/auth" class="head_link fl_r" name="js-link-highlightable" >Войти</a>
+            <a class="button fl_r second add_startup_button mobile_hide" id="headerJoinButton" href="/startups/new?first=1">Добавить проект</a>
+
+        
+        <a id="h_"  class="head_link logo fl_l" name="js-link-highlightable">
+            <i class="head_logo"></i>
+        </a>
+
+        <div class="mobile_hide inline_block">
+
+            <a id="h_blogs_general" href="/blogs/general" class="head_link active" name="js-link-highlightable">Главное</a>
+            <a id="h_blogs_new" href="/blogs/new" class="head_link " name="js-link-highlightable">Свежее</a>
+            <a id="h_startups" href="/startups" class="head_link head_link--with-icon " name="js-link-highlightable">
+                <svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <path d="M14.8371517,6.91823922 L18,5.11113133 L9.00016378,0 L0,5.11113133 L3.16284825,6.91823922 L0,8.71421033 L3.16284825,10.5213182 L0,12.3172893 L9.00016378,17.4592106 L18,12.3172893 L14.8371517,10.5213182 L18,8.71421033 L14.8371517,6.91823922 Z M9.00016378,0.753371063 L16.6763598,5.11276909 L9.00016378,9.49869889 L1.3236402,5.11276909 L9.00016378,0.753371063 Z M3.82417702,7.29590741 L9.00016378,10.2530526 L14.1761505,7.29590741 L16.6763598,8.71584809 L9.00016378,13.1017779 L1.3236402,8.71584809 L3.82417702,7.29590741 Z M16.6763598,12.3189271 L9.00016378,16.7048569 L1.3236402,12.3189271 L3.82417702,10.8989864 L9.00016378,13.8561316 L14.1761505,10.8989864 L16.6763598,12.3189271 Z"></path>
+</svg>Компании</a>
+            <a id="h_aid" href="https://shot.spark.ru/" class="head_link head_link--with-icon" name="js-link-highlightable">Полезное</a>
+
+        </div>
+
+        <div class="header__mobile-menu-toggler unselectable" onclick="spark.content.toggle('.mobile_main_menu', 'mobile_main_menu--opened');">
+            <svg width="17px" height="14px" viewBox="0 0 17 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Symbols" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <path d="M0,12.2669974 L16.9599991,12.2669974 L16.9599991,13.8933047 L0,13.8933047 L0,12.2669974 Z M0,6.08569694 L16.9599991,6.08569694 L16.9599991,7.71139846 L0,7.71139846 L0,6.08569694 Z M0,0.00330434783 L16.9599991,0.00330434783 L16.9599991,1.62900586 L0,1.62900586 L0,0.00330434783 Z" id="Combined-Shape"></path>
+    </g>
+</svg>        </div>
+
+        <div class="head_search search_holder" data-type="global_search">
+            <input type="text" name="search" placeholder="Поиск" class="search" id="head_select" autocomplete="off"/>
+        </div>
+
+        <a rel="nofollow" class="button master green header-writepost mobile_hide" href="/write" id="headerWriteButton">
+          <i class="icon write"></i>
+          <span>Написать</span>
+        </a>
+        <a rel="nofollow" class="button master header-mtt mobile_hide" style="background:#9447ad"
+           href="https://www.mtt.ru/ru/services/resheniya_dlya_udalennoy_raboty?utm_source=spark&utm_medium=button&utm_campaign=spark_gl"><span><span class="sproject">Спецпроект </span>МТТ</span></a>
+
+    </div>
+</div>
+
+    <div id="adfox_157668202924889281"></div>
+  <script>
+		window.Ya.adfoxCode.create({
+			ownerId: 304557,
+			containerId: 'adfox_157668202924889281',
+			params: {pp:'g',ps:'dpyj',p2:'gquv'}
+		});
+  </script>
+
+<div class="mobile_main_menu clear">
+
+    <div class="mobile_search_icon fl_r" onclick="spark.content.toggle('#spark-site-header', 'mobile-search-opened'); $('.head_search input').focus();">
+        <i class="icon-search"></i>
+    </div>
+
+    <a href="/blogs/general" class="active" name="js-link-highlightable">Главное</a>
+    <a href="/blogs/new" class="" name="js-link-highlightable">Свежее</a>
+    <a href="/jobs" class="  " name="js-link-highlightable">Вакансии</a>
+    <a href="/startups" class="head_link--with-icon " name="js-link-highlightable">
+        <svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <path d="M14.8371517,6.91823922 L18,5.11113133 L9.00016378,0 L0,5.11113133 L3.16284825,6.91823922 L0,8.71421033 L3.16284825,10.5213182 L0,12.3172893 L9.00016378,17.4592106 L18,12.3172893 L14.8371517,10.5213182 L18,8.71421033 L14.8371517,6.91823922 Z M9.00016378,0.753371063 L16.6763598,5.11276909 L9.00016378,9.49869889 L1.3236402,5.11276909 L9.00016378,0.753371063 Z M3.82417702,7.29590741 L9.00016378,10.2530526 L14.1761505,7.29590741 L16.6763598,8.71584809 L9.00016378,13.1017779 L1.3236402,8.71584809 L3.82417702,7.29590741 Z M16.6763598,12.3189271 L9.00016378,16.7048569 L1.3236402,12.3189271 L3.82417702,10.8989864 L9.00016378,13.8561316 L14.1761505,10.8989864 L16.6763598,12.3189271 Z"></path>
+</svg> 
+        Проекты
+    </a>
+</div>        <div class="main" id="spark-content">
+            <div class="b-adv-branding-shifter" id="adfox-branding-shifter"></div>
+            <div class="branding" id="adfoxBranding"></div>
+            <div class="branding adfox-adaptive-line" id="adfoxAdaptiveLine"></div>
+            <div id="wrapper" class="_p_rel clear">
+    <div data-js-handler="indexPage" data-js-arguments='{ "pagename" : "blogs", "sorting" : "general"}'></div>
+
+
+<div class="center-col grid-cols-wrapper grid-cols-wrapper--right-aside p_rel clear">
+
+    <div class="grid-col grid-col--right">
+
+        <div class="right_col_block right_col_block--transparent">
+                                  <div id="adfox_157668193555951356"></div>
+            <script>
+							window.Ya.adfoxCode.create({
+								ownerId: 304557,
+								containerId: 'adfox_157668193555951356',
+								params: {pp:'g',ps:'dpyj',p2:'gquu'}
+							});
+            </script>
+                  </div>
+
+                                    
+                <div class="right_col_block" id="topProjects">
+                    <div class="block_title">Лучшие проекты за неделю</div>
+
+                        
+                
+        
+            <div class="aside-rating-item with_medals clear  n1">
+                <a href="/startup/masterkit" data-chain-stats-key="weekly_startups_block">
+                    <img class="aside-rating-item__photo" src="/upload/startups/m_5def851c3918e.jpg" alt="Master Kit Inc." />
+                </a>
+                <a class="aside-rating-item__title" href="/startup/masterkit" data-chain-stats-key="weekly_startups_block">Master Kit Inc.</a>
+                <div class="growth-counter">
+                    <span class="count">12</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 886 20 20"><path d="M.227 900.074c0-.17.065-.32.196-.45l9.126-9.127c.13-.13.28-.196.45-.196.17 0 .32.066.45.197l9.127 9.126c.13.13.196.28.196.45s-.065.32-.196.45l-.98.98c-.13.13-.28.195-.45.195-.17 0-.32-.065-.45-.195L10 893.806l-7.697 7.697c-.13.13-.28.195-.45.195-.17 0-.32-.065-.45-.195l-.98-.98c-.13-.13-.196-.28-.196-.45z"/></svg>                </div>
+            </div>
+
+            
+        
+    
+                
+        
+            <div class="aside-rating-item with_medals clear  n2">
+                <a href="/startup/redaktsiya-spark-ru" data-chain-stats-key="weekly_startups_block">
+                    <img class="aside-rating-item__photo" src="/upload/startups/m_5bed5ee199b4f.jpg" alt="Редакция Spark.ru" />
+                </a>
+                <a class="aside-rating-item__title" href="/startup/redaktsiya-spark-ru" data-chain-stats-key="weekly_startups_block">Редакция Spark.ru</a>
+                <div class="growth-counter">
+                    <span class="count">11</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 886 20 20"><path d="M.227 900.074c0-.17.065-.32.196-.45l9.126-9.127c.13-.13.28-.196.45-.196.17 0 .32.066.45.197l9.127 9.126c.13.13.196.28.196.45s-.065.32-.196.45l-.98.98c-.13.13-.28.195-.45.195-.17 0-.32-.065-.45-.195L10 893.806l-7.697 7.697c-.13.13-.28.195-.45.195-.17 0-.32-.065-.45-.195l-.98-.98c-.13-.13-.196-.28-.196-.45z"/></svg>                </div>
+            </div>
+
+            
+        
+    
+                
+        
+            <div class="aside-rating-item with_medals clear  n3">
+                <a href="/startup/it-agenstvo-index" data-chain-stats-key="weekly_startups_block">
+                    <img class="aside-rating-item__photo" src="/upload/startups/m_5c3c8ec550a6f.jpg" alt="IT-агентство Index" />
+                </a>
+                <a class="aside-rating-item__title" href="/startup/it-agenstvo-index" data-chain-stats-key="weekly_startups_block">IT-агентство Index</a>
+                <div class="growth-counter">
+                    <span class="count">11</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 886 20 20"><path d="M.227 900.074c0-.17.065-.32.196-.45l9.126-9.127c.13-.13.28-.196.45-.196.17 0 .32.066.45.197l9.127 9.126c.13.13.196.28.196.45s-.065.32-.196.45l-.98.98c-.13.13-.28.195-.45.195-.17 0-.32-.065-.45-.195L10 893.806l-7.697 7.697c-.13.13-.28.195-.45.195-.17 0-.32-.065-.45-.195l-.98-.98c-.13-.13-.196-.28-.196-.45z"/></svg>                </div>
+            </div>
+
+            
+        
+    
+                
+                
+        
+            <div class="aside-rating-item with_medals clear  ">
+                <a href="/startup/skorost-ventures" data-chain-stats-key="weekly_startups_block">
+                    <img class="aside-rating-item__photo" src="/upload/startups/m_5ee8e94c9cf55.jpg" alt="Skorost Ventures Start" />
+                </a>
+                <a class="aside-rating-item__title" href="/startup/skorost-ventures" data-chain-stats-key="weekly_startups_block">Skorost Ventures Start</a>
+                <div class="growth-counter">
+                    <span class="count">1</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 886 20 20"><path d="M.227 900.074c0-.17.065-.32.196-.45l9.126-9.127c.13-.13.28-.196.45-.196.17 0 .32.066.45.197l9.127 9.126c.13.13.196.28.196.45s-.065.32-.196.45l-.98.98c-.13.13-.28.195-.45.195-.17 0-.32-.065-.45-.195L10 893.806l-7.697 7.697c-.13.13-.28.195-.45.195-.17 0-.32-.065-.45-.195l-.98-.98c-.13-.13-.196-.28-.196-.45z"/></svg>                </div>
+            </div>
+
+            
+        
+    
+                
+        
+            <div class="aside-rating-item with_medals clear  ">
+                <a href="/startup/5d4f54sd54fsd" data-chain-stats-key="weekly_startups_block">
+                    <img class="aside-rating-item__photo" src="/upload/startups/m_default.png" alt="5d4f54sd54fsd" />
+                </a>
+                <a class="aside-rating-item__title" href="/startup/5d4f54sd54fsd" data-chain-stats-key="weekly_startups_block">5d4f54sd54fsd</a>
+                <div class="growth-counter">
+                    <span class="count">0</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 886 20 20"><path d="M.227 900.074c0-.17.065-.32.196-.45l9.126-9.127c.13-.13.28-.196.45-.196.17 0 .32.066.45.197l9.127 9.126c.13.13.196.28.196.45s-.065.32-.196.45l-.98.98c-.13.13-.28.195-.45.195-.17 0-.32-.065-.45-.195L10 893.806l-7.697 7.697c-.13.13-.28.195-.45.195-.17 0-.32-.065-.45-.195l-.98-.98c-.13-.13-.196-.28-.196-.45z"/></svg>                </div>
+            </div>
+
+            
+        
+    
+                
+        
+            <div class="aside-rating-item with_medals clear hide ">
+                <a href="/startup/5fc56816b2312" data-chain-stats-key="weekly_startups_block">
+                    <img class="aside-rating-item__photo" src="/upload/startups/m_5fc56bb4e9241.jpg" alt="Бизнес-Консультант" />
+                </a>
+                <a class="aside-rating-item__title" href="/startup/5fc56816b2312" data-chain-stats-key="weekly_startups_block">Бизнес-Консультант</a>
+                <div class="growth-counter">
+                    <span class="count">0</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 886 20 20"><path d="M.227 900.074c0-.17.065-.32.196-.45l9.126-9.127c.13-.13.28-.196.45-.196.17 0 .32.066.45.197l9.127 9.126c.13.13.196.28.196.45s-.065.32-.196.45l-.98.98c-.13.13-.28.195-.45.195-.17 0-.32-.065-.45-.195L10 893.806l-7.697 7.697c-.13.13-.28.195-.45.195-.17 0-.32-.065-.45-.195l-.98-.98c-.13-.13-.196-.28-.196-.45z"/></svg>                </div>
+            </div>
+
+            
+        
+    
+                
+        
+            <div class="aside-rating-item with_medals clear hide ">
+                <a href="/startup/5fc566866bbf9" data-chain-stats-key="weekly_startups_block">
+                    <img class="aside-rating-item__photo" src="/upload/startups/m_default.png" alt="Тамбов-Альянс" />
+                </a>
+                <a class="aside-rating-item__title" href="/startup/5fc566866bbf9" data-chain-stats-key="weekly_startups_block">Тамбов-Альянс</a>
+                <div class="growth-counter">
+                    <span class="count">0</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 886 20 20"><path d="M.227 900.074c0-.17.065-.32.196-.45l9.126-9.127c.13-.13.28-.196.45-.196.17 0 .32.066.45.197l9.127 9.126c.13.13.196.28.196.45s-.065.32-.196.45l-.98.98c-.13.13-.28.195-.45.195-.17 0-.32-.065-.45-.195L10 893.806l-7.697 7.697c-.13.13-.28.195-.45.195-.17 0-.32-.065-.45-.195l-.98-.98c-.13-.13-.196-.28-.196-.45z"/></svg>                </div>
+            </div>
+
+            
+        
+    
+                
+        
+            <div class="aside-rating-item with_medals clear hide ">
+                <a href="/startup/free-moovi-ch" data-chain-stats-key="weekly_startups_block">
+                    <img class="aside-rating-item__photo" src="/upload/startups/m_default.png" alt="free_moovi_ch" />
+                </a>
+                <a class="aside-rating-item__title" href="/startup/free-moovi-ch" data-chain-stats-key="weekly_startups_block">free_moovi_ch</a>
+                <div class="growth-counter">
+                    <span class="count">0</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 886 20 20"><path d="M.227 900.074c0-.17.065-.32.196-.45l9.126-9.127c.13-.13.28-.196.45-.196.17 0 .32.066.45.197l9.127 9.126c.13.13.196.28.196.45s-.065.32-.196.45l-.98.98c-.13.13-.28.195-.45.195-.17 0-.32-.065-.45-.195L10 893.806l-7.697 7.697c-.13.13-.28.195-.45.195-.17 0-.32-.065-.45-.195l-.98-.98c-.13-.13-.196-.28-.196-.45z"/></svg>                </div>
+            </div>
+
+            
+        
+    
+                
+        
+            <div class="aside-rating-item with_medals clear hide ">
+                <a href="/startup/5fc524de2e832" data-chain-stats-key="weekly_startups_block">
+                    <img class="aside-rating-item__photo" src="/upload/startups/m_5fc52541f10ec.jpg" alt="САУ" />
+                </a>
+                <a class="aside-rating-item__title" href="/startup/5fc524de2e832" data-chain-stats-key="weekly_startups_block">САУ</a>
+                <div class="growth-counter">
+                    <span class="count">0</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 886 20 20"><path d="M.227 900.074c0-.17.065-.32.196-.45l9.126-9.127c.13-.13.28-.196.45-.196.17 0 .32.066.45.197l9.127 9.126c.13.13.196.28.196.45s-.065.32-.196.45l-.98.98c-.13.13-.28.195-.45.195-.17 0-.32-.065-.45-.195L10 893.806l-7.697 7.697c-.13.13-.28.195-.45.195-.17 0-.32-.065-.45-.195l-.98-.98c-.13-.13-.196-.28-.196-.45z"/></svg>                </div>
+            </div>
+
+            
+        
+    
+                
+        
+            <div class="aside-rating-item with_medals clear hide ">
+                <a href="/startup/novij-vid-sporta-spo" data-chain-stats-key="weekly_startups_block">
+                    <img class="aside-rating-item__photo" src="/upload/startups/m_default.png" alt="Новый вид спорта спортзал три в одн" />
+                </a>
+                <a class="aside-rating-item__title" href="/startup/novij-vid-sporta-spo" data-chain-stats-key="weekly_startups_block">Новый вид спорта спортзал три в одн</a>
+                <div class="growth-counter">
+                    <span class="count">0</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 886 20 20"><path d="M.227 900.074c0-.17.065-.32.196-.45l9.126-9.127c.13-.13.28-.196.45-.196.17 0 .32.066.45.197l9.127 9.126c.13.13.196.28.196.45s-.065.32-.196.45l-.98.98c-.13.13-.28.195-.45.195-.17 0-.32-.065-.45-.195L10 893.806l-7.697 7.697c-.13.13-.28.195-.45.195-.17 0-.32-.065-.45-.195l-.98-.98c-.13-.13-.196-.28-.196-.45z"/></svg>                </div>
+            </div>
+
+            
+                                                                                            <div class="show_all_button" onclick="spark.content.showNextItems.call(this , '#topProjects .aside-rating-item', 5, null, function(){
+                                document.getElementById('showAllTopProjects').classList.remove('hide');
+                            })">Показать следующие</div>
+                                            
+                    <a class="show_all_button hide" id="showAllTopProjects" href="/startups">Рейтинг проектов</a>
+
+                </div>
+
+                                      <div class="banner-300x500" name="js-banner-placeholder" data-ignoremobile=1 data-type="300x500"><a class="banner-placeholder--link" target="_blank" href="#"></a></div>            
+                                            <a style="text-decoration:none;" href="https://www.facebook.com/spark.ru/"><div class="block--socials soc--fb"><img src="https://spark.ru/upload/i-fb.png" alt="">Мы в Facebook<span>Подписаться</span></div></a>
+            <a style="text-decoration:none;" href="https://vk.com/gospark"><div class="block--socials soc--vk"><img src="https://spark.ru/upload/i-vk.png" alt="">Мы в Вконтакте<span>Подписаться</span></div></a>
+            <a style="text-decoration:none;" href="https://t.me/spark_project"><div class="block--socials soc--tg"><img src="/upload/i-telegram.png" alt="">Мы в Telegram<span>Подписаться</span></div></a>
+            <a style="text-decoration:none;" href="https://www.instagram.com/spark_project/"><div class="block--socials soc--inst"><img src="https://spark.ru/upload/i-inst.png" alt="">Мы в Instagram<span>Подписаться</span></div></a>
+            <a style="text-decoration:none;" href="https://zen.yandex.ru/id/5bacc79bf93bed00a9e7e4da "><div class="block--socials soc--dz"><img src="/upload/i-dzen.png" alt="">Мы в Дзен<span>Подписаться</span></div></a>
+                        <script>
+              ready(function(){
+                $(".block--socials.soc--mail").click(function(){
+                	var destination=$('#digestSubscribeBlock').offset().top;
+                	$('body').animate({scrollTop:destination},500);
+                	return false;
+                });
+              });
+            </script>
+            <div class="block--socials soc--mail"><img src="/upload/i-mail.png" alt="">Рассылка Spark<span>Подписаться</span></div>
+            <div style="width:300px;height:50px;margin-bottom:20px;margin-top:-10px">
+              <a href="https://lptracker.io/new/virtual_callcentr.php?utm_source=spark_banner&utm_campaign=spark_banner&utm_term=spark_banner"><img src="/upload/i-bot.jpg" alt=""></a>
+            </div>
+                        <div class="sricky">
+              <div style="padding:0 35px;">
+                <div style="font-size:17px;font-weight:500;color:#313b4f;margin:0 0 8px;">Популярное:</div>
+                <div class="island redchoice">
+                  <div style="display:flex; margin: 15px 0 0 0;">
+      <img style="border-radius:50%; margin-right:10px;" height=30 width=30 src="/upload/blogs_covers/l_5fa1066e7c775.jpg" alt="">
+      <div style="padding-bottom:15px; border-bottom: 1px solid #D9D9D9; width:100%;">
+        <p style=""><a style="font-size:14px;text-decoration:none; color:black; line-height:22px;" href="/startup/redaktsiya-spark-ru/blog/68123/kak-raskachat-kanal-youtube-ne-pribegaya-k-nakrutkam">Как раскачать канал YouTube, не прибегая к накруткам?</a></p>
+                <p>
+          <img width=20 src="/upload/prosmotr.svg" alt=""> <span style="opacity:0.5; line-height:28px; margin-left:5px;margin-right:40px;">27751</span>
+          <img width=20 src="/upload/comments.svg" alt=""> <span style="opacity:0.5; line-height:28px; margin-left:5px;">2</span>
+        </p>
+              </div>
+    </div>
+                      <div style="display:flex; margin: 15px 0 0 0;">
+      <img style="border-radius:50%; margin-right:10px;" height=30 width=30 src="/upload/spark.png" alt="">
+      <div style="padding-bottom:15px; border-bottom: 1px solid #D9D9D9; width:100%;">
+        <p style=""><a style="font-size:14px;text-decoration:none; color:black; line-height:22px;" href="/user/127761/blog/69036/atomnaya-peresmenka">Атомная пересменка</a></p>
+                <p>
+          <img width=20 src="/upload/prosmotr.svg" alt=""> <span style="opacity:0.5; line-height:28px; margin-left:5px;margin-right:40px;">5939</span>
+          <img width=20 src="/upload/comments.svg" alt=""> <span style="opacity:0.5; line-height:28px; margin-left:5px;">0</span>
+        </p>
+              </div>
+    </div>
+                      <div style="display:flex; margin: 15px 0 0 0;">
+      <img style="border-radius:50%; margin-right:10px;" height=30 width=30 src="/upload/blogs_covers/l_5fb7e044ade1a.jpg" alt="">
+      <div style="padding-bottom:15px; border-bottom: 1px solid #D9D9D9; width:100%;">
+        <p style=""><a style="font-size:14px;text-decoration:none; color:black; line-height:22px;" href="/user/127800/blog/68946/top-14-prilozhenij-dlya-zarabotka-deneg-bez-vlozhenij-na-android-i-ios-2020-2021">ТОП 14 приложений для заработка денег без вложений на Android и iOS 2020-2021</a></p>
+                <p>
+          <img width=20 src="/upload/prosmotr.svg" alt=""> <span style="opacity:0.5; line-height:28px; margin-left:5px;margin-right:40px;">5127</span>
+          <img width=20 src="/upload/comments.svg" alt=""> <span style="opacity:0.5; line-height:28px; margin-left:5px;">0</span>
+        </p>
+              </div>
+    </div>
+                      <div style="display:flex; margin: 15px 0 0 0;">
+      <img style="border-radius:50%; margin-right:10px;" height=30 width=30 src="/upload/blogs_covers/l_5fb628dc8f8ea.jpg" alt="">
+      <div style="padding-bottom:15px; border-bottom: 1px solid #D9D9D9; width:100%;">
+        <p style=""><a style="font-size:14px;text-decoration:none; color:black; line-height:22px;" href="/user/127740/blog/68817/oka-i-ih-serie-dela">Ока и их «серые» дела</a></p>
+                <p>
+          <img width=20 src="/upload/prosmotr.svg" alt=""> <span style="opacity:0.5; line-height:28px; margin-left:5px;margin-right:40px;">4610</span>
+          <img width=20 src="/upload/comments.svg" alt=""> <span style="opacity:0.5; line-height:28px; margin-left:5px;">0</span>
+        </p>
+              </div>
+    </div>
+                      <div style="display:flex; margin: 15px 0 0 0;">
+      <img style="border-radius:50%; margin-right:10px;" height=30 width=30 src="/upload/blogs_covers/l_5fbb8c54bdd45.jpg" alt="">
+      <div style="padding-bottom:15px; border-bottom: 1px solid #D9D9D9; width:100%;">
+        <p style=""><a style="font-size:14px;text-decoration:none; color:black; line-height:22px;" href="/user/127740/blog/69011/atomnaya-napast-vladivostoka">АТОМНАЯ НАПАСТЬ ВЛАДИВОСТОКА</a></p>
+                <p>
+          <img width=20 src="/upload/prosmotr.svg" alt=""> <span style="opacity:0.5; line-height:28px; margin-left:5px;margin-right:40px;">4064</span>
+          <img width=20 src="/upload/comments.svg" alt=""> <span style="opacity:0.5; line-height:28px; margin-left:5px;">0</span>
+        </p>
+              </div>
+    </div>
+        </div>
+<style>
+.island.redchoice div:nth-child(5) div{
+  border-bottom:none!important;
+}
+</style>              </div>
+                              <div id="adfox_157710242721047268"></div>
+                <script>
+									window.Ya.adfoxCode.create({
+										ownerId: 304557,
+										containerId: 'adfox_157710242721047268',
+										params: {pp:'i',ps:'dpyj',p2:'gquu'}
+									});
+                </script>
+                          </div>
+            <style>
+                .sricky {background-color:white; padding-top:15px;}
+                .block--socials {border-radius:2px; width:300px; height:50px; margin-bottom:10px;color:white;font-size:16px; display:flex;padding:0 20px;align-items:center;box-sizing:border-box;text-decoration:none;}
+                .block--socials img {width:30px;heaight:30px; margin-right:10px;}
+                .block--socials span {font-size:12px;margin-left:auto;}
+                .block--socials.soc--tg{background-color:#39A1CF;}
+                .block--socials.soc--dz{background-color:#CE0000;margin-bottom:20px;}
+                .block--socials.soc--fb{background-color:#4267B2;}
+                .block--socials.soc--vk{background-color:#4A76A8;}
+                .block--socials.soc--inst{
+                  background: rgba(101,88,201,1);
+                  background: -moz-linear-gradient(left, rgba(101,88,201,1) 0%, rgba(199,49,137,1) 50%, rgba(244,99,55,1) 100%);
+                  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(101,88,201,1)), color-stop(50%, rgba(199,49,137,1)), color-stop(100%, rgba(244,99,55,1)));
+                  background: -webkit-linear-gradient(left, rgba(101,88,201,1) 0%, rgba(199,49,137,1) 50%, rgba(244,99,55,1) 100%);
+                  background: -o-linear-gradient(left, rgba(101,88,201,1) 0%, rgba(199,49,137,1) 50%, rgba(244,99,55,1) 100%);
+                  background: -ms-linear-gradient(left, rgba(101,88,201,1) 0%, rgba(199,49,137,1) 50%, rgba(244,99,55,1) 100%);
+                  background: linear-gradient(to right, rgba(101,88,201,1) 0%, rgba(199,49,137,1) 50%, rgba(244,99,55,1) 100%);
+                  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6558c9', endColorstr='#f46337', GradientType=1 );
+                }
+                .block--socials.soc--mail{background-color:#8A48E1;margin-bottom:20px;margin-top:-10px;}
+                .socials--container:last-child{margin-bottom:20px;}
+            </style>
+            <script>
+              ready(function(){
+                var commenttop = document.querySelector('.sricky').getBoundingClientRect();
+                var srickyBottom = document.documentElement.clientHeight - commenttop.bottom;
+                $(".sricky").stick_in_parent({offset_top: 70}).on("sticky_kit:bottom", function(e){});
+                $(".block--socials.soc--mail").click(function () {
+                  var destination = $('#digestSubscribeBlock').offset().top;
+                  $('html').animate({ scrollTop: destination }, 500);
+                  return false;
+                });
+              });
+            </script>
+    </div>
+    <div class="grid-content r_col">
+                        <div class="articles">
+            <div class="index-tabs-wrapper island">
+                <div class="tabs index_tabs clear">
+                        <a class="tab  js-emoji-included" href="/blogs/productivity">
+                            😼  Личная эффективность
+                        </a>
+                                                                                    <a class="tab  js-emoji-included" href="/blogs/growth-stories">
+                                    🚀  Кейсы                                </a>
+                                                            <a class="tab  js-emoji-included" href="/blogs/books">
+                                    📚  Книги                                </a>
+                                                            <a class="tab  js-emoji-included" href="/blogs/ab-testing">
+                                    🚦  Продвижение                                </a>
+                                                                                        <span class="index-tabs--showmore post-tags--showmore" onclick="spark.content.toggle('.post-collections-list, .post-tags--showmore','opened', '.post-collections-list')" title="Показать все подборки">
+                                    <span class="post-tags--showmore-toggler">
+                                        <svg width="21px" height="5px" viewBox="0 0 21 5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+        <circle id="Oval" cx="2.5" cy="2.5" r="2.5"></circle>
+        <circle id="Oval" cx="10.5" cy="2.5" r="2.5"></circle>
+        <circle id="Oval" cx="18.5" cy="2.5" r="2.5"></circle>
+
+</svg>                                    </span>
+                                    <span class="post-tags--showmore-close">
+                                        <svg viewBox="0 0 12 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Page-1" fill-rule="evenodd">
+        <g id="Post-bottom" transform="translate(-527.000000, -849.000000)">
+            <g id="list" transform="translate(81.000000, 91.000000)">
+                <g id="Post" transform="translate(0.000000, 36.000000)">
+                    <g id="Footer" transform="translate(0.000000, 626.000000)">
+                        <g id="close-tags" transform="translate(452.000000, 102.500000) rotate(-315.000000) translate(-452.000000, -102.500000) translate(445.000000, 95.000000)">
+                            <rect id="Rectangle-113" x="0" y="6" width="14" height="3"></rect>
+                            <rect id="Rectangle-113" transform="translate(7.000000, 7.500000) rotate(-270.000000) translate(-7.000000, -7.500000) " x="0" y="6" width="14" height="3"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>                                    </span>
+                                </span>
+                                                                    </div>
+            </div>
+            <div class="post-collections-list island">
+                                    <a class="post-collections-list--item" href="/blogs/growth-stories">
+                        <div class="post-collections-list--icon js-emoji-included fl_l">
+                            🚀                        </div>
+                        <div class="r_col">
+                            <div class="post-collections-list--title">
+                                Кейсы                            </div>
+                            <div class="post-collections-list--description">
+                                Рассказы из первых уст о создании и продвижении проектов                            </div>
+                        </div>
+                    </a>
+                                    <a class="post-collections-list--item" href="/blogs/telegram">
+                        <div class="post-collections-list--icon js-emoji-included fl_l">
+                            <img src='/public/img/telegram-logo.svg' />                        </div>
+                        <div class="r_col">
+                            <div class="post-collections-list--title">
+                                Telegram                            </div>
+                            <div class="post-collections-list--description">
+                                Подборки каналов, чатов и полезных материалов.                            </div>
+                        </div>
+                    </a>
+                                    <a class="post-collections-list--item" href="/blogs/top">
+                        <div class="post-collections-list--icon js-emoji-included fl_l">
+                            😎                        </div>
+                        <div class="r_col">
+                            <div class="post-collections-list--title">
+                                Самые читаемые                            </div>
+                            <div class="post-collections-list--description">
+                                Подборка статей с наибольшим количеством просмотров                            </div>
+                        </div>
+                    </a>
+                                    <a class="post-collections-list--item" href="/blogs/beginners">
+                        <div class="post-collections-list--icon js-emoji-included fl_l">
+                            💰                        </div>
+                        <div class="r_col">
+                            <div class="post-collections-list--title">
+                                Начало бизнеса                            </div>
+                            <div class="post-collections-list--description">
+                                Статьи и руководства о первых шагах в предпринимательстве                            </div>
+                        </div>
+                    </a>
+                                    <a class="post-collections-list--item" href="/blogs/ux">
+                        <div class="post-collections-list--icon js-emoji-included fl_l">
+                            📻                        </div>
+                        <div class="r_col">
+                            <div class="post-collections-list--title">
+                                Интерфейсы                            </div>
+                            <div class="post-collections-list--description">
+                                Статьи о проектировании удобных сервисов                            </div>
+                        </div>
+                    </a>
+                                    <a class="post-collections-list--item" href="/blogs/marketing">
+                        <div class="post-collections-list--icon js-emoji-included fl_l">
+                            💎                        </div>
+                        <div class="r_col">
+                            <div class="post-collections-list--title">
+                                Продвижение                            </div>
+                            <div class="post-collections-list--description">
+                                Маркетинговые стратегии для бизнеса, советы и полезные кейсы                            </div>
+                        </div>
+                    </a>
+                                    <a class="post-collections-list--item" href="/blogs/discussion">
+                        <div class="post-collections-list--icon js-emoji-included fl_l">
+                            🎭                        </div>
+                        <div class="r_col">
+                            <div class="post-collections-list--title">
+                                Самые обсуждаемые                            </div>
+                            <div class="post-collections-list--description">
+                                Статьи с большим количеством комментариев                            </div>
+                        </div>
+                    </a>
+                                    <a class="post-collections-list--item" href="/blogs/gold">
+                        <div class="post-collections-list--icon js-emoji-included fl_l">
+                            🏆                        </div>
+                        <div class="r_col">
+                            <div class="post-collections-list--title">
+                                Золотой фонд                            </div>
+                            <div class="post-collections-list--description">
+                                Лучшие материалы за всю историю Спарка                            </div>
+                        </div>
+                    </a>
+                                    <a class="post-collections-list--item" href="/blogs/media">
+                        <div class="post-collections-list--icon js-emoji-included fl_l">
+                            📺                        </div>
+                        <div class="r_col">
+                            <div class="post-collections-list--title">
+                                Работа со СМИ                            </div>
+                            <div class="post-collections-list--description">
+                                Продвижение своих проектов с помощью медиа                            </div>
+                        </div>
+                    </a>
+                                    <a class="post-collections-list--item" href="/blogs/hiring">
+                        <div class="post-collections-list--icon js-emoji-included fl_l">
+                            📝                        </div>
+                        <div class="r_col">
+                            <div class="post-collections-list--title">
+                                Поиск сотрудников                            </div>
+                            <div class="post-collections-list--description">
+                                Статьи и кейсы о поиске и найме специалистов                            </div>
+                        </div>
+                    </a>
+                                    <a class="post-collections-list--item" href="/blogs/productivity">
+                        <div class="post-collections-list--icon js-emoji-included fl_l">
+                            🐜                        </div>
+                        <div class="r_col">
+                            <div class="post-collections-list--title">
+                                Личная эффективность                            </div>
+                            <div class="post-collections-list--description">
+                                Решение проблем с самоорганизацией                            </div>
+                        </div>
+                    </a>
+                                    <a class="post-collections-list--item" href="/blogs/law">
+                        <div class="post-collections-list--icon js-emoji-included fl_l">
+                            ⚖                        </div>
+                        <div class="r_col">
+                            <div class="post-collections-list--title">
+                                Юридические вопросы                            </div>
+                            <div class="post-collections-list--description">
+                                Юридические аспекты стартапа                            </div>
+                        </div>
+                    </a>
+                                    <a class="post-collections-list--item" href="/blogs/investment">
+                        <div class="post-collections-list--icon js-emoji-included fl_l">
+                            💸                        </div>
+                        <div class="r_col">
+                            <div class="post-collections-list--title">
+                                Поиск инвестиций                            </div>
+                            <div class="post-collections-list--description">
+                                Личный опыт от тех, кому удалось привлечь финансы                            </div>
+                        </div>
+                    </a>
+                                    <a class="post-collections-list--item" href="/blogs/logo">
+                        <div class="post-collections-list--icon js-emoji-included fl_l">
+                            👽                        </div>
+                        <div class="r_col">
+                            <div class="post-collections-list--title">
+                                Логотип и бренд                            </div>
+                            <div class="post-collections-list--description">
+                                Статьи о создании логотипов и брендировании                            </div>
+                        </div>
+                    </a>
+                                    <a class="post-collections-list--item" href="/blogs/pm">
+                        <div class="post-collections-list--icon js-emoji-included fl_l">
+                            📊                        </div>
+                        <div class="r_col">
+                            <div class="post-collections-list--title">
+                                Управление проектом                            </div>
+                            <div class="post-collections-list--description">
+                                Определяем четкие цели проекта и достигаем их                            </div>
+                        </div>
+                    </a>
+                                    <a class="post-collections-list--item" href="/blogs/redesign">
+                        <div class="post-collections-list--icon js-emoji-included fl_l">
+                            🤹                        </div>
+                        <div class="r_col">
+                            <div class="post-collections-list--title">
+                                Редизайн                            </div>
+                            <div class="post-collections-list--description">
+                                Статьи и кейсы от тех, кто переосмысливал идеи проектов                            </div>
+                        </div>
+                    </a>
+                                    <a class="post-collections-list--item" href="/blogs/vkontakte">
+                        <div class="post-collections-list--icon js-emoji-included fl_l">
+                            🌌                        </div>
+                        <div class="r_col">
+                            <div class="post-collections-list--title">
+                                ВКонтакте                            </div>
+                            <div class="post-collections-list--description">
+                                Статьи о продвижении, рекламе и новых обновлениях                            </div>
+                        </div>
+                    </a>
+                                    <a class="post-collections-list--item" href="/blogs/books">
+                        <div class="post-collections-list--icon js-emoji-included fl_l">
+                            📚                        </div>
+                        <div class="r_col">
+                            <div class="post-collections-list--title">
+                                Книги                            </div>
+                            <div class="post-collections-list--description">
+                                Подборки и краткое содержание книг от различных проектов                            </div>
+                        </div>
+                    </a>
+                                    <a class="post-collections-list--item" href="/blogs/top-2016">
+                        <div class="post-collections-list--icon js-emoji-included fl_l">
+                            🏆                        </div>
+                        <div class="r_col">
+                            <div class="post-collections-list--title">
+                                2016: лучшее                            </div>
+                            <div class="post-collections-list--description">
+                                Наиболее интересные и популярные статьи прошедшего года                            </div>
+                        </div>
+                    </a>
+                                    <a class="post-collections-list--item" href="/blogs/aso">
+                        <div class="post-collections-list--icon js-emoji-included fl_l">
+                            📱                        </div>
+                        <div class="r_col">
+                            <div class="post-collections-list--title">
+                                Продвижение приложений                            </div>
+                            <div class="post-collections-list--description">
+                                Опыт команд, который позволит вывести приложение в топ App Store и Google Play                            </div>
+                        </div>
+                    </a>
+                                    <a class="post-collections-list--item" href="/blogs/stories">
+                        <div class="post-collections-list--icon js-emoji-included fl_l">
+                            👻                        </div>
+                        <div class="r_col">
+                            <div class="post-collections-list--title">
+                                Истории                            </div>
+                            <div class="post-collections-list--description">
+                                Только живые сториз о создании и развитии проектов                            </div>
+                        </div>
+                    </a>
+                                    <a class="post-collections-list--item" href="/blogs/foreign-market">
+                        <div class="post-collections-list--icon js-emoji-included fl_l">
+                            🌎                        </div>
+                        <div class="r_col">
+                            <div class="post-collections-list--title">
+                                Бизнес за рубежом                            </div>
+                            <div class="post-collections-list--description">
+                                Рецепты выхода на иностранные рынки: стратегии, методы и ошибки                            </div>
+                        </div>
+                    </a>
+                                    <a class="post-collections-list--item" href="/blogs/content">
+                        <div class="post-collections-list--icon js-emoji-included fl_l">
+                            📰                        </div>
+                        <div class="r_col">
+                            <div class="post-collections-list--title">
+                                Создание контента                            </div>
+                            <div class="post-collections-list--description">
+                                Руководства, советы и опыт команд по созданию качественных материалов на различных площадках                            </div>
+                        </div>
+                    </a>
+                                    <a class="post-collections-list--item" href="/blogs/ab-testing">
+                        <div class="post-collections-list--icon js-emoji-included fl_l">
+                            🚦                        </div>
+                        <div class="r_col">
+                            <div class="post-collections-list--title">
+                                Продвижение                            </div>
+                            <div class="post-collections-list--description">
+                                Какие инструменты использовать — опыт стартапов                            </div>
+                        </div>
+                    </a>
+                            </div>
+            
+            
+                        <div class="posts-list-item island clear posts-list-item__first  " name="post-list-item" data-id="69290">
+
+    
+    <div class="posts-list-item__header">
+        <span class="posts-list-item__star " onclick="user.star( $(this) , {type: 6, target: 69290, $parent: $(this) , $value: $(this).find('.value') });">
+            <i class="icon-star-1" title="Добавить в избранное"></i>
+        </span>
+                        <span class="posts-list-item__time">
+                            3 дня назад                    </span>
+        <a class="posts-list-item__author" href="/user/128023">
+                          <img class="ava" src="" alt="Александр И">
+                        <span class="name" title="">Александр И</span>
+        </a>
+
+        
+
+    </div>
+
+    <div class="posts-list-item__body clear">
+           
+                        
+        
+        <a class="posts-list-item__title" href="/user/128023/blog/69290/tsirkonievie-koronki-tsena" >Циркониевые коронки цена</a>
+
+        <div class="posts-list-item__text mobile_pointer" onclick="user.mobileLink('/user/128023/blog/69290/tsirkonievie-koronki-tsena')">
+                            Циркониевые коронки цена                    </div>
+    </div>
+
+    
+
+    <div class="posts-list-item__footer">
+
+        
+            <a class="starred_list_bage fl_r js-emoji-included" href="/blogs/starred">
+                <span class="starred_list_bage--icon">😼 </span>
+                Выбор редакции
+            </a>
+
+        
+        
+            
+            <a class="live-updated live-updated_comment hide" name="js-live-update" data-lifetime="5000" rel="nofollow" href="/user/128023/blog/69290/tsirkonievie-koronki-tsena" data-post-data='{"to":"comments"}'>
+                <img class="live-updated--icon" src="" />
+                        <span class="live-updated--title overflow_long">
+                            Иванов Иван                        </span>
+                <span class="live-updated--text overflow_long">Ну вот Спарк и пробил дно :( </span>
+            </a>
+
+        
+        <a id ="postComments_69290" class="posts-list-item__counter" href="/user/128023/blog/69290/tsirkonievie-koronki-tsena" data-post-data='{"to":"comments"}'>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path d="M13.346 2.81c-.675 0-1.327.088-1.94.247-1.022-.4-2.162-.626-3.364-.626C3.67 2.43.112 5.4.112 9.053c0 1.937.994 3.747 2.738 5.007v3.51l3.638-2.025c.514.085 1.036.13 1.553.13 2.168 0 4.135-.73 5.567-1.912.328-.01.656-.043.98-.095l3.074 1.71v-2.97c1.418-1.04 2.225-2.527 2.225-4.117.002-3.02-2.932-5.48-6.54-5.48zM8.042 14.607c-.516 0-1.038-.05-1.55-.144l-.188-.036-2.386 1.33v-2.26l-.237-.16c-1.59-1.062-2.5-2.624-2.5-4.284 0-3.062 3.08-5.554 6.863-5.554.61 0 1.203.066 1.767.188C8.004 4.66 6.805 6.36 6.805 8.29c0 2.61 2.19 4.796 5.11 5.343-1.102.614-2.436.973-3.873.973zm8.792-2.92l-.237.158v1.72l-1.82-1.014h-.005l-.185.036c-.41.077-.826.115-1.24.115-.044 0-.088 0-.133-.002-2.957-.057-5.34-2.012-5.34-4.408 0-1.864 1.44-3.46 3.472-4.105.518-.164 1.073-.267 1.653-.297.114-.006.23-.01.347-.01 3.02 0 5.474 1.98 5.474 4.41 0 1.316-.723 2.554-1.986 3.398z"></path></svg>1            <span class="mobile_hide">комментарий</span>
+        </a>
+
+    </div>
+
+</div>      <div id="adfox_15791799280552823"></div>
+      <script>
+        window.Ya.adfoxCode.create({
+          ownerId: 304557,
+          containerId: 'adfox_15791799280552823',
+          params: { pp: 'g', ps: 'dpyj', p2: 'grdt' }
+        });
+      </script>
+    <div class="posts-list-item island clear   " name="post-list-item" data-id="68777">
+
+    
+    <div class="posts-list-item__header">
+        <span class="posts-list-item__star " onclick="user.star( $(this) , {type: 6, target: 68777, $parent: $(this) , $value: $(this).find('.value') });">
+            <i class="icon-star-1" title="Добавить в избранное"></i>
+        </span>
+                        <span class="posts-list-item__time">
+                            4 дня назад                    </span>
+        <a class="posts-list-item__author" href="/user/122277">
+                          <img class="ava" src="upload/profile/s_5ee9e97670870.jpg" alt="RapidWeb">
+                        <span class="name" title="RapidWeb.me – интернет-агентство полного цикла. Создание, ускорение и продвижение сайтов">RapidWeb</span>
+        </a>
+
+        
+
+    </div>
+
+    <div class="posts-list-item__body clear">
+           
+                        
+        
+            <div class="posts-list-item__cover pointer p_rel"  onclick="spark.ajax.segue('/user/122277/blog/68777/kak-reshit-problemu-s-beskonechnimi-pravkami-klienta-pri-razrabotke-sajta', null, event)">
+                                <img src="/upload/blogs_covers/l_5fb526ece5017.jpg" alt="Как решить проблему с бесконечными правками клиента при разработке сайта" />
+            </div>
+        
+        <a class="posts-list-item__title" href="/user/122277/blog/68777/kak-reshit-problemu-s-beskonechnimi-pravkami-klienta-pri-razrabotke-sajta" >Как решить проблему с бесконечными правками клиента при разработке сайта</a>
+
+        <div class="posts-list-item__text mobile_pointer" onclick="user.mobileLink('/user/122277/blog/68777/kak-reshit-problemu-s-beskonechnimi-pravkami-klienta-pri-razrabotke-sajta')">
+                            «Ещё нужно поиграть со шрифтами, эту кнопку сделать больше и...» — с подобными правками сталкивается каждый, кто занимается созданием сайтов. Всё бы ничего, но иногда их количество превышает все разумные рамки.                    </div>
+    </div>
+
+    
+
+    <div class="posts-list-item__footer">
+
+        
+            <a class="starred_list_bage fl_r js-emoji-included" href="/blogs/starred">
+                <span class="starred_list_bage--icon">😼 </span>
+                Выбор редакции
+            </a>
+
+        
+        
+            
+            <a class="live-updated live-updated_comment hide" name="js-live-update" data-lifetime="5000" rel="nofollow" href="/user/122277/blog/68777/kak-reshit-problemu-s-beskonechnimi-pravkami-klienta-pri-razrabotke-sajta" data-post-data='{"to":"comments"}'>
+                <img class="live-updated--icon" src="upload/profile/s_582d81ee4ab54.jpg" />
+                        <span class="live-updated--title overflow_long">
+                            Alex Naghtigall                        </span>
+                <span class="live-updated--text overflow_long">Кто до этого не дойдет, тот много шишек на лбу набьет.... Сколько раз зарекался работать по четко прописанному договору, но скатывался иногда на устную договоренность на мелкие правки. А после им не было конца.....Один раз делал лендинг - в итоге доработок и правок набралось на целую мини CRM для обработки заказов клиентов.</span>
+            </a>
+
+        
+        <a id ="postComments_68777" class="posts-list-item__counter" href="/user/122277/blog/68777/kak-reshit-problemu-s-beskonechnimi-pravkami-klienta-pri-razrabotke-sajta" data-post-data='{"to":"comments"}'>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path d="M13.346 2.81c-.675 0-1.327.088-1.94.247-1.022-.4-2.162-.626-3.364-.626C3.67 2.43.112 5.4.112 9.053c0 1.937.994 3.747 2.738 5.007v3.51l3.638-2.025c.514.085 1.036.13 1.553.13 2.168 0 4.135-.73 5.567-1.912.328-.01.656-.043.98-.095l3.074 1.71v-2.97c1.418-1.04 2.225-2.527 2.225-4.117.002-3.02-2.932-5.48-6.54-5.48zM8.042 14.607c-.516 0-1.038-.05-1.55-.144l-.188-.036-2.386 1.33v-2.26l-.237-.16c-1.59-1.062-2.5-2.624-2.5-4.284 0-3.062 3.08-5.554 6.863-5.554.61 0 1.203.066 1.767.188C8.004 4.66 6.805 6.36 6.805 8.29c0 2.61 2.19 4.796 5.11 5.343-1.102.614-2.436.973-3.873.973zm8.792-2.92l-.237.158v1.72l-1.82-1.014h-.005l-.185.036c-.41.077-.826.115-1.24.115-.044 0-.088 0-.133-.002-2.957-.057-5.34-2.012-5.34-4.408 0-1.864 1.44-3.46 3.472-4.105.518-.164 1.073-.267 1.653-.297.114-.006.23-.01.347-.01 3.02 0 5.474 1.98 5.474 4.41 0 1.316-.723 2.554-1.986 3.398z"></path></svg>2            <span class="mobile_hide">комментария</span>
+        </a>
+
+    </div>
+
+</div><div class="posts-list-item island clear   " name="post-list-item" data-id="69269">
+
+    
+    <div class="posts-list-item__header">
+        <span class="posts-list-item__star " onclick="user.star( $(this) , {type: 1, target: 69269, $parent: $(this) , $value: $(this).find('.value') });">
+            <i class="icon-star-1" title="Добавить в избранное"></i>
+        </span>
+                        <span class="posts-list-item__time">
+                            4 дня назад                    </span>
+        <a class="posts-list-item__author" href="/startup/5f27ac1c6f235">
+                          <img class="ava" src="/upload/startups/s_5f75c58071d98.jpg" alt="Omega">
+                        <span class="name" title="Разработка мобильных приложений, разработка веб-приложений, дизайн">Omega</span>
+        </a>
+
+        
+
+    </div>
+
+    <div class="posts-list-item__body clear">
+           
+                        
+        
+            <div class="posts-list-item__cover pointer p_rel"  onclick="spark.ajax.segue('/startup/5f27ac1c6f235/blog/69269/kak-vistroit-effektivnuyu-sistemu-prodazh-v-tehnologicheskoj-kompanii', null, event)">
+                                <img src="/upload/blogs_covers/l_5fc0f46166a7a.jpg" alt="Как выстроить эффективную систему продаж в технологической компании" />
+            </div>
+        
+        <a class="posts-list-item__title" href="/startup/5f27ac1c6f235/blog/69269/kak-vistroit-effektivnuyu-sistemu-prodazh-v-tehnologicheskoj-kompanii" >Как выстроить эффективную систему продаж в технологической компании</a>
+
+        <div class="posts-list-item__text mobile_pointer" onclick="user.mobileLink('/startup/5f27ac1c6f235/blog/69269/kak-vistroit-effektivnuyu-sistemu-prodazh-v-tehnologicheskoj-kompanii')">
+                            55 процентов стартапов в России в первый год жизни получает выручку до 1 млн рублей или не получает вовсе. Ведение бизнеса в России – задача не из легких.                    </div>
+    </div>
+
+    
+
+    <div class="posts-list-item__footer">
+
+        
+            <a class="starred_list_bage fl_r js-emoji-included" href="/blogs/starred">
+                <span class="starred_list_bage--icon">😼 </span>
+                Выбор редакции
+            </a>
+
+        
+        
+        <a id ="postComments_69269" class="posts-list-item__counter" href="/startup/5f27ac1c6f235/blog/69269/kak-vistroit-effektivnuyu-sistemu-prodazh-v-tehnologicheskoj-kompanii" data-post-data='{"to":"comments"}'>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path d="M13.346 2.81c-.675 0-1.327.088-1.94.247-1.022-.4-2.162-.626-3.364-.626C3.67 2.43.112 5.4.112 9.053c0 1.937.994 3.747 2.738 5.007v3.51l3.638-2.025c.514.085 1.036.13 1.553.13 2.168 0 4.135-.73 5.567-1.912.328-.01.656-.043.98-.095l3.074 1.71v-2.97c1.418-1.04 2.225-2.527 2.225-4.117.002-3.02-2.932-5.48-6.54-5.48zM8.042 14.607c-.516 0-1.038-.05-1.55-.144l-.188-.036-2.386 1.33v-2.26l-.237-.16c-1.59-1.062-2.5-2.624-2.5-4.284 0-3.062 3.08-5.554 6.863-5.554.61 0 1.203.066 1.767.188C8.004 4.66 6.805 6.36 6.805 8.29c0 2.61 2.19 4.796 5.11 5.343-1.102.614-2.436.973-3.873.973zm8.792-2.92l-.237.158v1.72l-1.82-1.014h-.005l-.185.036c-.41.077-.826.115-1.24.115-.044 0-.088 0-.133-.002-2.957-.057-5.34-2.012-5.34-4.408 0-1.864 1.44-3.46 3.472-4.105.518-.164 1.073-.267 1.653-.297.114-.006.23-.01.347-.01 3.02 0 5.474 1.98 5.474 4.41 0 1.316-.723 2.554-1.986 3.398z"></path></svg>0            <span class="mobile_hide">комментариев</span>
+        </a>
+
+    </div>
+
+</div>      <div class='jobs--layout'>
+        <div class="jobs--title"><span>Вакансии</span> <a href="/jobs">Все вакансии</a></div>
+        <div id="jobs--widget">
+                    		<a  class="job--item   "
+		href="/job/7120/menedzher-internet-magazina-imperiya-https-moscow-imperiasexa-ru" 					>
+
+		<span class="item--title">менеджер Интернет Магазина Импери...</span>
+		<div class="item--info">
+			<div class="logo">
+				<img src="/upload/startups/m_default.png">
+			</div>
+			<span class="name overflow_long">Интернет Магазин Имп...</span>
+			<span class="item--counter">
+									8K RUB							</span>
+		</div>
+	</a>
+		<a  class="job--item   "
+		href="/job/7119/smm-assistent" 					>
+
+		<span class="item--title">SMM ассистент</span>
+		<div class="item--info">
+			<div class="logo">
+				<img src="/upload/startups/m_5fb6870d8b779.jpg">
+			</div>
+			<span class="name overflow_long">Экокожа.ру</span>
+			<span class="item--counter">
+							</span>
+		</div>
+	</a>
+		<a  class="job--item  last "
+		href="/job/7116/avtor" 					>
+
+		<span class="item--title">Автор</span>
+		<div class="item--info">
+			<div class="logo">
+				<img src="/upload/startups/m_5fa44ac5ad067.jpg">
+			</div>
+			<span class="name overflow_long">SETIWIK</span>
+			<span class="item--counter">
+							</span>
+		</div>
+	</a>
+        </div>
+        <a href="ajax/getblockjobs" class="ajaxfree jobs--button"
+           onclick="spark.ajax.loadMore.call(this,{url:'ajax/getmorejobs','blocksWrapper':'#jobs--widget','show':'true'})">
+          Показать еще<i class="icon-down-dir"></i></a>
+      </div>
+    <div class="posts-list-item island clear   " name="post-list-item" data-id="68114">
+
+    
+    <div class="posts-list-item__header">
+        <span class="posts-list-item__star " onclick="user.star( $(this) , {type: 1, target: 68114, $parent: $(this) , $value: $(this).find('.value') });">
+            <i class="icon-star-1" title="Добавить в избранное"></i>
+        </span>
+                        <span class="posts-list-item__time">
+                            4 дня назад                    </span>
+        <a class="posts-list-item__author" href="/startup/presium">
+                          <img class="ava" src="/upload/startups/s_5d67cd87499c1.jpg" alt="PRESIUM">
+                        <span class="name" title="Помогаем корпорациям становиться эффективнее, используя визуальные коммуникации">PRESIUM</span>
+        </a>
+
+        
+
+    </div>
+
+    <div class="posts-list-item__body clear">
+           
+                        
+        
+            <div class="posts-list-item__cover pointer p_rel"  onclick="spark.ajax.segue('/startup/presium/blog/68114/kak-podgotovit-otlichnuyu-rech', null, event)">
+                                <img src="/upload/blogs_covers/l_5fa05ff04dc6f.jpg" alt="Как подготовить отличную речь ?" />
+            </div>
+        
+        <a class="posts-list-item__title" href="/startup/presium/blog/68114/kak-podgotovit-otlichnuyu-rech" >Как подготовить отличную речь ?</a>
+
+        <div class="posts-list-item__text mobile_pointer" onclick="user.mobileLink('/startup/presium/blog/68114/kak-podgotovit-otlichnuyu-rech')">
+                            Пошаговый план, который поможет создать качественную презентацию                    </div>
+    </div>
+
+    
+
+    <div class="posts-list-item__footer">
+
+        
+            <a class="starred_list_bage fl_r js-emoji-included" href="/blogs/starred">
+                <span class="starred_list_bage--icon">😼 </span>
+                Выбор редакции
+            </a>
+
+        
+        
+        <a id ="postComments_68114" class="posts-list-item__counter" href="/startup/presium/blog/68114/kak-podgotovit-otlichnuyu-rech" data-post-data='{"to":"comments"}'>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path d="M13.346 2.81c-.675 0-1.327.088-1.94.247-1.022-.4-2.162-.626-3.364-.626C3.67 2.43.112 5.4.112 9.053c0 1.937.994 3.747 2.738 5.007v3.51l3.638-2.025c.514.085 1.036.13 1.553.13 2.168 0 4.135-.73 5.567-1.912.328-.01.656-.043.98-.095l3.074 1.71v-2.97c1.418-1.04 2.225-2.527 2.225-4.117.002-3.02-2.932-5.48-6.54-5.48zM8.042 14.607c-.516 0-1.038-.05-1.55-.144l-.188-.036-2.386 1.33v-2.26l-.237-.16c-1.59-1.062-2.5-2.624-2.5-4.284 0-3.062 3.08-5.554 6.863-5.554.61 0 1.203.066 1.767.188C8.004 4.66 6.805 6.36 6.805 8.29c0 2.61 2.19 4.796 5.11 5.343-1.102.614-2.436.973-3.873.973zm8.792-2.92l-.237.158v1.72l-1.82-1.014h-.005l-.185.036c-.41.077-.826.115-1.24.115-.044 0-.088 0-.133-.002-2.957-.057-5.34-2.012-5.34-4.408 0-1.864 1.44-3.46 3.472-4.105.518-.164 1.073-.267 1.653-.297.114-.006.23-.01.347-.01 3.02 0 5.474 1.98 5.474 4.41 0 1.316-.723 2.554-1.986 3.398z"></path></svg>0            <span class="mobile_hide">комментариев</span>
+        </a>
+
+    </div>
+
+</div><div class="posts-list-item island clear   " name="post-list-item" data-id="69248">
+
+    
+    <div class="posts-list-item__header">
+        <span class="posts-list-item__star " onclick="user.star( $(this) , {type: 6, target: 69248, $parent: $(this) , $value: $(this).find('.value') });">
+            <i class="icon-star-1" title="Добавить в избранное"></i>
+        </span>
+                        <span class="posts-list-item__time">
+                            4 дня назад                    </span>
+        <a class="posts-list-item__author" href="/user/128028">
+                          <img class="ava" src="upload/profile/s_5fc092d72768e.jpg" alt="RedLab">
+                        <span class="name" title="">RedLab</span>
+        </a>
+
+        
+
+    </div>
+
+    <div class="posts-list-item__body clear">
+           
+                        
+        
+            <div class="posts-list-item__cover pointer p_rel"  onclick="spark.ajax.segue('/user/128028/blog/69248/zachem-nuzhna-predvaritelnaya-analitika-pri-razrabotke-it-produkta', null, event)">
+                                <img src="/upload/blogs_covers/l_5fc0931b05542.jpg" alt="Зачем нужна предварительная аналитика при разработке IT-продукта" />
+            </div>
+        
+        <a class="posts-list-item__title" href="/user/128028/blog/69248/zachem-nuzhna-predvaritelnaya-analitika-pri-razrabotke-it-produkta" >Зачем нужна предварительная аналитика при разработке IT-продукта</a>
+
+        <div class="posts-list-item__text mobile_pointer" onclick="user.mobileLink('/user/128028/blog/69248/zachem-nuzhna-predvaritelnaya-analitika-pri-razrabotke-it-produkta')">
+                            Представьте, что вы решили заказать строительство дома: приходите в строительную компанию, вносите предоплату и требуете, чтобы рабочие тут же вышли на площадку для возведения постройки.                    </div>
+    </div>
+
+    
+
+    <div class="posts-list-item__footer">
+
+        
+            <a class="starred_list_bage fl_r js-emoji-included" href="/blogs/starred">
+                <span class="starred_list_bage--icon">😼 </span>
+                Выбор редакции
+            </a>
+
+        
+        
+        <a id ="postComments_69248" class="posts-list-item__counter" href="/user/128028/blog/69248/zachem-nuzhna-predvaritelnaya-analitika-pri-razrabotke-it-produkta" data-post-data='{"to":"comments"}'>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path d="M13.346 2.81c-.675 0-1.327.088-1.94.247-1.022-.4-2.162-.626-3.364-.626C3.67 2.43.112 5.4.112 9.053c0 1.937.994 3.747 2.738 5.007v3.51l3.638-2.025c.514.085 1.036.13 1.553.13 2.168 0 4.135-.73 5.567-1.912.328-.01.656-.043.98-.095l3.074 1.71v-2.97c1.418-1.04 2.225-2.527 2.225-4.117.002-3.02-2.932-5.48-6.54-5.48zM8.042 14.607c-.516 0-1.038-.05-1.55-.144l-.188-.036-2.386 1.33v-2.26l-.237-.16c-1.59-1.062-2.5-2.624-2.5-4.284 0-3.062 3.08-5.554 6.863-5.554.61 0 1.203.066 1.767.188C8.004 4.66 6.805 6.36 6.805 8.29c0 2.61 2.19 4.796 5.11 5.343-1.102.614-2.436.973-3.873.973zm8.792-2.92l-.237.158v1.72l-1.82-1.014h-.005l-.185.036c-.41.077-.826.115-1.24.115-.044 0-.088 0-.133-.002-2.957-.057-5.34-2.012-5.34-4.408 0-1.864 1.44-3.46 3.472-4.105.518-.164 1.073-.267 1.653-.297.114-.006.23-.01.347-.01 3.02 0 5.474 1.98 5.474 4.41 0 1.316-.723 2.554-1.986 3.398z"></path></svg>0            <span class="mobile_hide">комментариев</span>
+        </a>
+
+    </div>
+
+</div><div class="posts-list-item island clear   " name="post-list-item" data-id="69015">
+
+    
+    <div class="posts-list-item__header">
+        <span class="posts-list-item__star " onclick="user.star( $(this) , {type: 1, target: 69015, $parent: $(this) , $value: $(this).find('.value') });">
+            <i class="icon-star-1" title="Добавить в избранное"></i>
+        </span>
+                        <span class="posts-list-item__time">
+                            4 дня назад                    </span>
+        <a class="posts-list-item__author" href="/startup/madwins">
+                          <img class="ava" src="/upload/startups/s_5cd041452fc3e.jpg" alt="Madwins">
+                        <span class="name" title="SMM-агентство. Продвижение в соцсетях Вконтакте, Facebook, Instagram, Youtube.">Madwins</span>
+        </a>
+
+        
+
+    </div>
+
+    <div class="posts-list-item__body clear">
+           
+                        
+        
+            <div class="posts-list-item__cover pointer p_rel"  onclick="spark.ajax.segue('/startup/madwins/blog/69015/triggeri-dlya-effektivnosti-reklami-top-10-sposobov', null, event)">
+                                <img src="/upload/blogs_covers/l_5fbb91b8456c9.jpg" alt="Триггеры для эффективности рекламы: топ-10 способов" />
+            </div>
+        
+        <a class="posts-list-item__title" href="/startup/madwins/blog/69015/triggeri-dlya-effektivnosti-reklami-top-10-sposobov" >Триггеры для эффективности рекламы: топ-10 способов</a>
+
+        <div class="posts-list-item__text mobile_pointer" onclick="user.mobileLink('/startup/madwins/blog/69015/triggeri-dlya-effektivnosti-reklami-top-10-sposobov')">
+                            Триггеры для эффективности рекламы — это то, что действует на сознание потребителей, мотивирует их на взаимодействие с брендом.  В статье расскажем о некоторых из них.                    </div>
+    </div>
+
+    
+
+    <div class="posts-list-item__footer">
+
+        
+            <a class="starred_list_bage fl_r js-emoji-included" href="/blogs/starred">
+                <span class="starred_list_bage--icon">😼 </span>
+                Выбор редакции
+            </a>
+
+        
+        
+        <a id ="postComments_69015" class="posts-list-item__counter" href="/startup/madwins/blog/69015/triggeri-dlya-effektivnosti-reklami-top-10-sposobov" data-post-data='{"to":"comments"}'>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path d="M13.346 2.81c-.675 0-1.327.088-1.94.247-1.022-.4-2.162-.626-3.364-.626C3.67 2.43.112 5.4.112 9.053c0 1.937.994 3.747 2.738 5.007v3.51l3.638-2.025c.514.085 1.036.13 1.553.13 2.168 0 4.135-.73 5.567-1.912.328-.01.656-.043.98-.095l3.074 1.71v-2.97c1.418-1.04 2.225-2.527 2.225-4.117.002-3.02-2.932-5.48-6.54-5.48zM8.042 14.607c-.516 0-1.038-.05-1.55-.144l-.188-.036-2.386 1.33v-2.26l-.237-.16c-1.59-1.062-2.5-2.624-2.5-4.284 0-3.062 3.08-5.554 6.863-5.554.61 0 1.203.066 1.767.188C8.004 4.66 6.805 6.36 6.805 8.29c0 2.61 2.19 4.796 5.11 5.343-1.102.614-2.436.973-3.873.973zm8.792-2.92l-.237.158v1.72l-1.82-1.014h-.005l-.185.036c-.41.077-.826.115-1.24.115-.044 0-.088 0-.133-.002-2.957-.057-5.34-2.012-5.34-4.408 0-1.864 1.44-3.46 3.472-4.105.518-.164 1.073-.267 1.653-.297.114-.006.23-.01.347-.01 3.02 0 5.474 1.98 5.474 4.41 0 1.316-.723 2.554-1.986 3.398z"></path></svg>0            <span class="mobile_hide">комментариев</span>
+        </a>
+
+    </div>
+
+</div><div class="posts-list-item island clear   " name="post-list-item" data-id="69218">
+
+    
+    <div class="posts-list-item__header">
+        <span class="posts-list-item__star " onclick="user.star( $(this) , {type: 1, target: 69218, $parent: $(this) , $value: $(this).find('.value') });">
+            <i class="icon-star-1" title="Добавить в избранное"></i>
+        </span>
+                        <span class="posts-list-item__time">
+                            <i class="icon-pin-outline"></i> 
+                Запись закреплена
+                    </span>
+        <a class="posts-list-item__author" href="/startup/medialogia">
+                          <img class="ava" src="/upload/startups/s_5d2f0f3d809cc.jpg" alt="Медиалогия">
+                        <span class="name" title="Сервис №1 мониторинга СММ и СМИ. 800 млн.  СОЦМЕДИА и 51 тыс.  СМИ">Медиалогия</span>
+        </a>
+
+        
+
+    </div>
+
+    <div class="posts-list-item__body clear">
+           
+                        
+        
+            <div class="posts-list-item__cover pointer p_rel"  onclick="spark.ajax.segue('/startup/medialogia/blog/69218/top-20-youtube-kanalov-o-puteshestviyah-za-oktyabr', null, event)">
+                                <img src="upload/other/l_5fbfb8979f733.jpg" alt="ТОП-20 YouTube-каналов о путешествиях за октябрь" />
+            </div>
+        
+        <a class="posts-list-item__title" href="/startup/medialogia/blog/69218/top-20-youtube-kanalov-o-puteshestviyah-za-oktyabr" >ТОП-20 YouTube-каналов о путешествиях за октябрь</a>
+
+        <div class="posts-list-item__text mobile_pointer" onclick="user.mobileLink('/startup/medialogia/blog/69218/top-20-youtube-kanalov-o-puteshestviyah-za-oktyabr')">
+                            В октябре пандемия коронавируса немного ослабила свои позиции, и некоторые страны снова открыли свои границы. Истинные путешественники незамедлительно собрали свои чемоданы и двинулись в путь за новыми приключениями.                    </div>
+    </div>
+
+    
+
+    <div class="posts-list-item__footer">
+
+        
+            <a class="starred_list_bage fl_r js-emoji-included" href="/blogs/starred">
+                <span class="starred_list_bage--icon">😼 </span>
+                Выбор редакции
+            </a>
+
+        
+        
+        <a id ="postComments_69218" class="posts-list-item__counter" href="/startup/medialogia/blog/69218/top-20-youtube-kanalov-o-puteshestviyah-za-oktyabr" data-post-data='{"to":"comments"}'>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path d="M13.346 2.81c-.675 0-1.327.088-1.94.247-1.022-.4-2.162-.626-3.364-.626C3.67 2.43.112 5.4.112 9.053c0 1.937.994 3.747 2.738 5.007v3.51l3.638-2.025c.514.085 1.036.13 1.553.13 2.168 0 4.135-.73 5.567-1.912.328-.01.656-.043.98-.095l3.074 1.71v-2.97c1.418-1.04 2.225-2.527 2.225-4.117.002-3.02-2.932-5.48-6.54-5.48zM8.042 14.607c-.516 0-1.038-.05-1.55-.144l-.188-.036-2.386 1.33v-2.26l-.237-.16c-1.59-1.062-2.5-2.624-2.5-4.284 0-3.062 3.08-5.554 6.863-5.554.61 0 1.203.066 1.767.188C8.004 4.66 6.805 6.36 6.805 8.29c0 2.61 2.19 4.796 5.11 5.343-1.102.614-2.436.973-3.873.973zm8.792-2.92l-.237.158v1.72l-1.82-1.014h-.005l-.185.036c-.41.077-.826.115-1.24.115-.044 0-.088 0-.133-.002-2.957-.057-5.34-2.012-5.34-4.408 0-1.864 1.44-3.46 3.472-4.105.518-.164 1.073-.267 1.653-.297.114-.006.23-.01.347-.01 3.02 0 5.474 1.98 5.474 4.41 0 1.316-.723 2.554-1.986 3.398z"></path></svg>0            <span class="mobile_hide">комментариев</span>
+        </a>
+
+    </div>
+
+</div><div class="posts-list-item island clear   " name="post-list-item" data-id="69205">
+
+    
+    <div class="posts-list-item__header">
+        <span class="posts-list-item__star " onclick="user.star( $(this) , {type: 6, target: 69205, $parent: $(this) , $value: $(this).find('.value') });">
+            <i class="icon-star-1" title="Добавить в избранное"></i>
+        </span>
+                        <span class="posts-list-item__time">
+                            5 дней назад                    </span>
+        <a class="posts-list-item__author" href="/user/128001">
+                          <img class="ava" src="" alt="маркетинговое агенство V-brand">
+                        <span class="name" title="V-BRAND-агентство, решающее задачи позиционирования и присутствия
+бренда в digital и оффлайн пространстве.
+
+Мы создаем п">маркетинговое агенство V-brand</span>
+        </a>
+
+        
+
+    </div>
+
+    <div class="posts-list-item__body clear">
+           
+                        
+        
+            <div class="posts-list-item__cover pointer p_rel"  onclick="spark.ajax.segue('/user/128001/blog/69205/lajfhaki-dlya-marketologov-ili-kak-spasti-biznes-vo-vremena-covid-19', null, event)">
+                                <img src="/upload/blogs_covers/l_5fbf8e736837c.jpg" alt="Лайфхаки для маркетологов или «Как спасти бизнес во времена COVID-19»" />
+            </div>
+        
+        <a class="posts-list-item__title" href="/user/128001/blog/69205/lajfhaki-dlya-marketologov-ili-kak-spasti-biznes-vo-vremena-covid-19" >Лайфхаки для маркетологов или «Как спасти бизнес во времена COVID-19»</a>
+
+        <div class="posts-list-item__text mobile_pointer" onclick="user.mobileLink('/user/128001/blog/69205/lajfhaki-dlya-marketologov-ili-kak-spasti-biznes-vo-vremena-covid-19')">
+                            Сегодня мы хотим сказать бизнесу: Мы здесь. Мы с вами. Мы слышим вас. Мы поможем вам.  Мы знаем, как сейчас вам сложно, дорогие коллеги, в период всемирной пандемии COVID-19. Именно поэтому мы создали для вас этот материал. Читайте. Вдумывайтесь. Наслаждайтесь.                    </div>
+    </div>
+
+    
+
+    <div class="posts-list-item__footer">
+
+        
+            <a class="starred_list_bage fl_r js-emoji-included" href="/blogs/starred">
+                <span class="starred_list_bage--icon">😼 </span>
+                Выбор редакции
+            </a>
+
+        
+        
+            
+            <a class="live-updated live-updated_comment hide" name="js-live-update" data-lifetime="5000" rel="nofollow" href="/user/128001/blog/69205/lajfhaki-dlya-marketologov-ili-kak-spasti-biznes-vo-vremena-covid-19" data-post-data='{"to":"comments"}'>
+                <img class="live-updated--icon" src="https://graph.facebook.com/2887303121556566/picture?width=200&amp;height=200" />
+                        <span class="live-updated--title overflow_long">
+                            Вероника Лайконина                        </span>
+                <span class="live-updated--text overflow_long">Да сейчас выгодно только онлайн если это не аптека и продукты, а еще классно, тем кто на себя работает в интернете, как я, создала с командой сайт пин ап https://nagual.pp.ru/pinup-casino-registraciya регистрация на котором бесплатная еще и бонусы получаешь. Но в пандемию надо быть бдительным всегда, больше работать и следить за ситуацией чтобы в рейтинге не упасть</span>
+            </a>
+
+        
+        <a id ="postComments_69205" class="posts-list-item__counter" href="/user/128001/blog/69205/lajfhaki-dlya-marketologov-ili-kak-spasti-biznes-vo-vremena-covid-19" data-post-data='{"to":"comments"}'>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path d="M13.346 2.81c-.675 0-1.327.088-1.94.247-1.022-.4-2.162-.626-3.364-.626C3.67 2.43.112 5.4.112 9.053c0 1.937.994 3.747 2.738 5.007v3.51l3.638-2.025c.514.085 1.036.13 1.553.13 2.168 0 4.135-.73 5.567-1.912.328-.01.656-.043.98-.095l3.074 1.71v-2.97c1.418-1.04 2.225-2.527 2.225-4.117.002-3.02-2.932-5.48-6.54-5.48zM8.042 14.607c-.516 0-1.038-.05-1.55-.144l-.188-.036-2.386 1.33v-2.26l-.237-.16c-1.59-1.062-2.5-2.624-2.5-4.284 0-3.062 3.08-5.554 6.863-5.554.61 0 1.203.066 1.767.188C8.004 4.66 6.805 6.36 6.805 8.29c0 2.61 2.19 4.796 5.11 5.343-1.102.614-2.436.973-3.873.973zm8.792-2.92l-.237.158v1.72l-1.82-1.014h-.005l-.185.036c-.41.077-.826.115-1.24.115-.044 0-.088 0-.133-.002-2.957-.057-5.34-2.012-5.34-4.408 0-1.864 1.44-3.46 3.472-4.105.518-.164 1.073-.267 1.653-.297.114-.006.23-.01.347-.01 3.02 0 5.474 1.98 5.474 4.41 0 1.316-.723 2.554-1.986 3.398z"></path></svg>1            <span class="mobile_hide">комментарий</span>
+        </a>
+
+    </div>
+
+</div><div class="posts-list-item island clear   " name="post-list-item" data-id="69184">
+
+    
+    <div class="posts-list-item__header">
+        <span class="posts-list-item__star " onclick="user.star( $(this) , {type: 1, target: 69184, $parent: $(this) , $value: $(this).find('.value') });">
+            <i class="icon-star-1" title="Добавить в избранное"></i>
+        </span>
+                        <span class="posts-list-item__time">
+                            <i class="icon-pin-outline"></i> 
+                Запись закреплена
+                    </span>
+        <a class="posts-list-item__author" href="/startup/carrot-quest">
+                          <img class="ava" src="/upload/startups/s_5541b83e3c3a4.jpg" alt="Carrot quest">
+                        <span class="name" title="Платформа общения и маркетинга с пользователями">Carrot quest</span>
+        </a>
+
+        
+
+    </div>
+
+    <div class="posts-list-item__body clear">
+           
+                        
+        
+            <div class="posts-list-item__cover pointer p_rel"  onclick="spark.ajax.segue('/startup/carrot-quest/blog/69184/16-idej-kak-uvelichit-prodazhi-v-chernuyu-pyatnitsu-i-kiberponedelnik', null, event)">
+                                <img src="/upload/blogs_covers/l_5fbf5c80a266e.jpg" alt="16 идей, как увеличить продажи в Черную пятницу и Киберпонедельник" />
+            </div>
+        
+        <a class="posts-list-item__title" href="/startup/carrot-quest/blog/69184/16-idej-kak-uvelichit-prodazhi-v-chernuyu-pyatnitsu-i-kiberponedelnik" >16 идей, как увеличить продажи в Черную пятницу и Киберпонедельник</a>
+
+        <div class="posts-list-item__text mobile_pointer" onclick="user.mobileLink('/startup/carrot-quest/blog/69184/16-idej-kak-uvelichit-prodazhi-v-chernuyu-pyatnitsu-i-kiberponedelnik')">
+                            Мы собрали примеры маркетинговых кампаний к Черной пятнице и Киберпонедельнику, которые вы можете повторить.                    </div>
+    </div>
+
+    
+
+    <div class="posts-list-item__footer">
+
+        
+            <a class="starred_list_bage fl_r js-emoji-included" href="/blogs/starred">
+                <span class="starred_list_bage--icon">😼 </span>
+                Выбор редакции
+            </a>
+
+        
+        
+        <a id ="postComments_69184" class="posts-list-item__counter" href="/startup/carrot-quest/blog/69184/16-idej-kak-uvelichit-prodazhi-v-chernuyu-pyatnitsu-i-kiberponedelnik" data-post-data='{"to":"comments"}'>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path d="M13.346 2.81c-.675 0-1.327.088-1.94.247-1.022-.4-2.162-.626-3.364-.626C3.67 2.43.112 5.4.112 9.053c0 1.937.994 3.747 2.738 5.007v3.51l3.638-2.025c.514.085 1.036.13 1.553.13 2.168 0 4.135-.73 5.567-1.912.328-.01.656-.043.98-.095l3.074 1.71v-2.97c1.418-1.04 2.225-2.527 2.225-4.117.002-3.02-2.932-5.48-6.54-5.48zM8.042 14.607c-.516 0-1.038-.05-1.55-.144l-.188-.036-2.386 1.33v-2.26l-.237-.16c-1.59-1.062-2.5-2.624-2.5-4.284 0-3.062 3.08-5.554 6.863-5.554.61 0 1.203.066 1.767.188C8.004 4.66 6.805 6.36 6.805 8.29c0 2.61 2.19 4.796 5.11 5.343-1.102.614-2.436.973-3.873.973zm8.792-2.92l-.237.158v1.72l-1.82-1.014h-.005l-.185.036c-.41.077-.826.115-1.24.115-.044 0-.088 0-.133-.002-2.957-.057-5.34-2.012-5.34-4.408 0-1.864 1.44-3.46 3.472-4.105.518-.164 1.073-.267 1.653-.297.114-.006.23-.01.347-.01 3.02 0 5.474 1.98 5.474 4.41 0 1.316-.723 2.554-1.986 3.398z"></path></svg>0            <span class="mobile_hide">комментариев</span>
+        </a>
+
+    </div>
+
+</div><div class="posts-list-item island clear   " name="post-list-item" data-id="69173">
+
+    
+    <div class="posts-list-item__header">
+        <span class="posts-list-item__star " onclick="user.star( $(this) , {type: 6, target: 69173, $parent: $(this) , $value: $(this).find('.value') });">
+            <i class="icon-star-1" title="Добавить в избранное"></i>
+        </span>
+                        <span class="posts-list-item__time">
+                            6 дней назад                    </span>
+        <a class="posts-list-item__author" href="/user/15697">
+                          <img class="ava" src="upload/profile/s_5501a0d2b4a46.jpg" alt="Никитина Ольга">
+                        <span class="name" title="Co-founder ViaDelivery, канал про стартапы Start-up Girl ">Никитина Ольга</span>
+        </a>
+
+        
+
+    </div>
+
+    <div class="posts-list-item__body clear">
+           
+                        
+        
+        <a class="posts-list-item__title" href="/user/15697/blog/69173/dva-akseleratora-dva-mira-opit-prohozhdeniya-moskovskogo-start-up-lab-i-kalifornijskogo-alchemist" >Два акселератора - два мира: опыт прохождения московского Start-up Lab и калифорнийского Alchemist</a>
+
+        <div class="posts-list-item__text mobile_pointer" onclick="user.mobileLink('/user/15697/blog/69173/dva-akseleratora-dva-mira-opit-prohozhdeniya-moskovskogo-start-up-lab-i-kalifornijskogo-alchemist')">
+                            6 лет я занималась сервисом по доставке продуктов с рецептами, но пришло время двигаться вперед. И новый стратап, а также акселерация в Калифорнии пришли как нельзя кстати.                    </div>
+    </div>
+
+    
+
+    <div class="posts-list-item__footer">
+
+        
+            <a class="starred_list_bage fl_r js-emoji-included" href="/blogs/starred">
+                <span class="starred_list_bage--icon">😼 </span>
+                Выбор редакции
+            </a>
+
+        
+        
+        <a id ="postComments_69173" class="posts-list-item__counter" href="/user/15697/blog/69173/dva-akseleratora-dva-mira-opit-prohozhdeniya-moskovskogo-start-up-lab-i-kalifornijskogo-alchemist" data-post-data='{"to":"comments"}'>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path d="M13.346 2.81c-.675 0-1.327.088-1.94.247-1.022-.4-2.162-.626-3.364-.626C3.67 2.43.112 5.4.112 9.053c0 1.937.994 3.747 2.738 5.007v3.51l3.638-2.025c.514.085 1.036.13 1.553.13 2.168 0 4.135-.73 5.567-1.912.328-.01.656-.043.98-.095l3.074 1.71v-2.97c1.418-1.04 2.225-2.527 2.225-4.117.002-3.02-2.932-5.48-6.54-5.48zM8.042 14.607c-.516 0-1.038-.05-1.55-.144l-.188-.036-2.386 1.33v-2.26l-.237-.16c-1.59-1.062-2.5-2.624-2.5-4.284 0-3.062 3.08-5.554 6.863-5.554.61 0 1.203.066 1.767.188C8.004 4.66 6.805 6.36 6.805 8.29c0 2.61 2.19 4.796 5.11 5.343-1.102.614-2.436.973-3.873.973zm8.792-2.92l-.237.158v1.72l-1.82-1.014h-.005l-.185.036c-.41.077-.826.115-1.24.115-.044 0-.088 0-.133-.002-2.957-.057-5.34-2.012-5.34-4.408 0-1.864 1.44-3.46 3.472-4.105.518-.164 1.073-.267 1.653-.297.114-.006.23-.01.347-.01 3.02 0 5.474 1.98 5.474 4.41 0 1.316-.723 2.554-1.986 3.398z"></path></svg>0            <span class="mobile_hide">комментариев</span>
+        </a>
+
+    </div>
+
+</div><div class="posts-list-item island clear   " name="post-list-item" data-id="69167">
+
+    
+    <div class="posts-list-item__header">
+        <span class="posts-list-item__star " onclick="user.star( $(this) , {type: 1, target: 69167, $parent: $(this) , $value: $(this).find('.value') });">
+            <i class="icon-star-1" title="Добавить в избранное"></i>
+        </span>
+                        <span class="posts-list-item__time">
+                            6 дней назад                    </span>
+        <a class="posts-list-item__author" href="/startup/ppc-world">
+                          <img class="ava" src="/upload/startups/s_5e4270da62e7e.jpg" alt="ppc.world">
+                        <span class="name" title="Учим работать с платным трафиком">ppc.world</span>
+        </a>
+
+        
+
+    </div>
+
+    <div class="posts-list-item__body clear">
+           
+                        
+        
+            <div class="posts-list-item__cover pointer p_rel"  onclick="spark.ajax.segue('/startup/ppc-world/blog/69167/chernaya-pyatnitsa-kazhdij-den-kak-sdelat-skidki-chastiu-marketingovoj-strategii', null, event)">
+                                <img src="/upload/blogs_covers/l_5fbe688b7b397.jpg" alt="Черная пятница каждый день: как сделать скидки частью маркетинговой стратегии" />
+            </div>
+        
+        <a class="posts-list-item__title" href="/startup/ppc-world/blog/69167/chernaya-pyatnitsa-kazhdij-den-kak-sdelat-skidki-chastiu-marketingovoj-strategii" >Черная пятница каждый день: как сделать скидки частью маркетинговой стратегии</a>
+
+        <div class="posts-list-item__text mobile_pointer" onclick="user.mobileLink('/startup/ppc-world/blog/69167/chernaya-pyatnitsa-kazhdij-den-kak-sdelat-skidki-chastiu-marketingovoj-strategii')">
+                            Аккаунт-менеджер в агентстве MediaNation Дмитрием Лобановым в своем материале для ppc.world рассказывает, какие распродажи и акции могут решать нужные маркетинговые задачи и какие инструменты Директа и Google Ads подойдут для их продвижения.                    </div>
+    </div>
+
+    
+
+    <div class="posts-list-item__footer">
+
+        
+            <a class="starred_list_bage fl_r js-emoji-included" href="/blogs/starred">
+                <span class="starred_list_bage--icon">😼 </span>
+                Выбор редакции
+            </a>
+
+        
+        
+        <a id ="postComments_69167" class="posts-list-item__counter" href="/startup/ppc-world/blog/69167/chernaya-pyatnitsa-kazhdij-den-kak-sdelat-skidki-chastiu-marketingovoj-strategii" data-post-data='{"to":"comments"}'>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path d="M13.346 2.81c-.675 0-1.327.088-1.94.247-1.022-.4-2.162-.626-3.364-.626C3.67 2.43.112 5.4.112 9.053c0 1.937.994 3.747 2.738 5.007v3.51l3.638-2.025c.514.085 1.036.13 1.553.13 2.168 0 4.135-.73 5.567-1.912.328-.01.656-.043.98-.095l3.074 1.71v-2.97c1.418-1.04 2.225-2.527 2.225-4.117.002-3.02-2.932-5.48-6.54-5.48zM8.042 14.607c-.516 0-1.038-.05-1.55-.144l-.188-.036-2.386 1.33v-2.26l-.237-.16c-1.59-1.062-2.5-2.624-2.5-4.284 0-3.062 3.08-5.554 6.863-5.554.61 0 1.203.066 1.767.188C8.004 4.66 6.805 6.36 6.805 8.29c0 2.61 2.19 4.796 5.11 5.343-1.102.614-2.436.973-3.873.973zm8.792-2.92l-.237.158v1.72l-1.82-1.014h-.005l-.185.036c-.41.077-.826.115-1.24.115-.044 0-.088 0-.133-.002-2.957-.057-5.34-2.012-5.34-4.408 0-1.864 1.44-3.46 3.472-4.105.518-.164 1.073-.267 1.653-.297.114-.006.23-.01.347-.01 3.02 0 5.474 1.98 5.474 4.41 0 1.316-.723 2.554-1.986 3.398z"></path></svg>0            <span class="mobile_hide">комментариев</span>
+        </a>
+
+    </div>
+
+</div><div class="posts-list-item island clear   " name="post-list-item" data-id="69165">
+
+    
+    <div class="posts-list-item__header">
+        <span class="posts-list-item__star " onclick="user.star( $(this) , {type: 1, target: 69165, $parent: $(this) , $value: $(this).find('.value') });">
+            <i class="icon-star-1" title="Добавить в избранное"></i>
+        </span>
+                        <span class="posts-list-item__time">
+                            6 дней назад                    </span>
+        <a class="posts-list-item__author" href="/startup/knopkacompany">
+                          <img class="ava" src="/upload/startups/s_5c87555f951a3.jpg" alt="Кнопка">
+                        <span class="name" title="Прозрачная бухгалтерия для бизнеса из любой сферы">Кнопка</span>
+        </a>
+
+        
+
+    </div>
+
+    <div class="posts-list-item__body clear">
+           
+                        
+        
+            <div class="posts-list-item__cover pointer p_rel"  onclick="spark.ajax.segue('/startup/knopkacompany/blog/69165/ponyatnim-yazikom-pro-dengi-i-zakoni-59', null, event)">
+                                <img src="/upload/blogs_covers/l_5fbe64053ea2b.jpg" alt="Понятным языком про деньги и законы — 59" />
+            </div>
+        
+        <a class="posts-list-item__title" href="/startup/knopkacompany/blog/69165/ponyatnim-yazikom-pro-dengi-i-zakoni-59" >Понятным языком про деньги и законы — 59</a>
+
+        <div class="posts-list-item__text mobile_pointer" onclick="user.mobileLink('/startup/knopkacompany/blog/69165/ponyatnim-yazikom-pro-dengi-i-zakoni-59')">
+                            В этом выпуске: налоговый период на патенте в 2021 году; прогрессивная шкала НДФЛ в России (для большинства ничего не изменится); что делать бухгалтеру, если доход работника превысил 5 млн ₽; кому на патенте в новом году можно работать без кассы. Поехали!                    </div>
+    </div>
+
+    
+
+    <div class="posts-list-item__footer">
+
+        
+            <a class="starred_list_bage fl_r js-emoji-included" href="/blogs/starred">
+                <span class="starred_list_bage--icon">😼 </span>
+                Выбор редакции
+            </a>
+
+        
+        
+        <a id ="postComments_69165" class="posts-list-item__counter" href="/startup/knopkacompany/blog/69165/ponyatnim-yazikom-pro-dengi-i-zakoni-59" data-post-data='{"to":"comments"}'>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path d="M13.346 2.81c-.675 0-1.327.088-1.94.247-1.022-.4-2.162-.626-3.364-.626C3.67 2.43.112 5.4.112 9.053c0 1.937.994 3.747 2.738 5.007v3.51l3.638-2.025c.514.085 1.036.13 1.553.13 2.168 0 4.135-.73 5.567-1.912.328-.01.656-.043.98-.095l3.074 1.71v-2.97c1.418-1.04 2.225-2.527 2.225-4.117.002-3.02-2.932-5.48-6.54-5.48zM8.042 14.607c-.516 0-1.038-.05-1.55-.144l-.188-.036-2.386 1.33v-2.26l-.237-.16c-1.59-1.062-2.5-2.624-2.5-4.284 0-3.062 3.08-5.554 6.863-5.554.61 0 1.203.066 1.767.188C8.004 4.66 6.805 6.36 6.805 8.29c0 2.61 2.19 4.796 5.11 5.343-1.102.614-2.436.973-3.873.973zm8.792-2.92l-.237.158v1.72l-1.82-1.014h-.005l-.185.036c-.41.077-.826.115-1.24.115-.044 0-.088 0-.133-.002-2.957-.057-5.34-2.012-5.34-4.408 0-1.864 1.44-3.46 3.472-4.105.518-.164 1.073-.267 1.653-.297.114-.006.23-.01.347-.01 3.02 0 5.474 1.98 5.474 4.41 0 1.316-.723 2.554-1.986 3.398z"></path></svg>0            <span class="mobile_hide">комментариев</span>
+        </a>
+
+    </div>
+
+</div><div class="posts-list-item island clear   " name="post-list-item" data-id="69125">
+
+    
+    <div class="posts-list-item__header">
+        <span class="posts-list-item__star " onclick="user.star( $(this) , {type: 1, target: 69125, $parent: $(this) , $value: $(this).find('.value') });">
+            <i class="icon-star-1" title="Добавить в избранное"></i>
+        </span>
+                        <span class="posts-list-item__time">
+                            6 дней назад                    </span>
+        <a class="posts-list-item__author" href="/startup/1ps-ru">
+                          <img class="ava" src="/upload/startups/s_5721a7782cee3.jpg" alt="1PS.RU">
+                        <span class="name" title="Агентство комплексного продвижения сайтов">1PS.RU</span>
+        </a>
+
+        
+
+    </div>
+
+    <div class="posts-list-item__body clear">
+           
+                        
+        
+            <div class="posts-list-item__cover pointer p_rel"  onclick="spark.ajax.segue('/startup/1ps-ru/blog/69125/reputatsionnie-skandali-2020-kak-ubit-svoj-brend', null, event)">
+                                <img src="/upload/blogs_covers/l_5fbde6f1dd8ee.jpg" alt="Репутационные скандалы 2020: как убить свой бренд" />
+            </div>
+        
+        <a class="posts-list-item__title" href="/startup/1ps-ru/blog/69125/reputatsionnie-skandali-2020-kak-ubit-svoj-brend" >Репутационные скандалы 2020: как убить свой бренд</a>
+
+        <div class="posts-list-item__text mobile_pointer" onclick="user.mobileLink('/startup/1ps-ru/blog/69125/reputatsionnie-skandali-2020-kak-ubit-svoj-brend')">
+                            Рассказываем про самые громкие репутационные скандалы, которые запомнились за 2020 год.                    </div>
+    </div>
+
+    
+
+    <div class="posts-list-item__footer">
+
+        
+            <a class="starred_list_bage fl_r js-emoji-included" href="/blogs/starred">
+                <span class="starred_list_bage--icon">😼 </span>
+                Выбор редакции
+            </a>
+
+        
+        
+        <a id ="postComments_69125" class="posts-list-item__counter" href="/startup/1ps-ru/blog/69125/reputatsionnie-skandali-2020-kak-ubit-svoj-brend" data-post-data='{"to":"comments"}'>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path d="M13.346 2.81c-.675 0-1.327.088-1.94.247-1.022-.4-2.162-.626-3.364-.626C3.67 2.43.112 5.4.112 9.053c0 1.937.994 3.747 2.738 5.007v3.51l3.638-2.025c.514.085 1.036.13 1.553.13 2.168 0 4.135-.73 5.567-1.912.328-.01.656-.043.98-.095l3.074 1.71v-2.97c1.418-1.04 2.225-2.527 2.225-4.117.002-3.02-2.932-5.48-6.54-5.48zM8.042 14.607c-.516 0-1.038-.05-1.55-.144l-.188-.036-2.386 1.33v-2.26l-.237-.16c-1.59-1.062-2.5-2.624-2.5-4.284 0-3.062 3.08-5.554 6.863-5.554.61 0 1.203.066 1.767.188C8.004 4.66 6.805 6.36 6.805 8.29c0 2.61 2.19 4.796 5.11 5.343-1.102.614-2.436.973-3.873.973zm8.792-2.92l-.237.158v1.72l-1.82-1.014h-.005l-.185.036c-.41.077-.826.115-1.24.115-.044 0-.088 0-.133-.002-2.957-.057-5.34-2.012-5.34-4.408 0-1.864 1.44-3.46 3.472-4.105.518-.164 1.073-.267 1.653-.297.114-.006.23-.01.347-.01 3.02 0 5.474 1.98 5.474 4.41 0 1.316-.723 2.554-1.986 3.398z"></path></svg>1            <span class="mobile_hide">комментарий</span>
+        </a>
+
+    </div>
+
+</div><div class="posts-list-item island clear  posts-list-item__richview " name="post-list-item" data-id="69100">
+
+    
+    <div class="posts-list-item__header">
+        <span class="posts-list-item__star " onclick="user.star( $(this) , {type: 1, target: 69100, $parent: $(this) , $value: $(this).find('.value') });">
+            <i class="icon-star-1" title="Добавить в избранное"></i>
+        </span>
+                        <span class="posts-list-item__time">
+                            7 дней назад                    </span>
+        <a class="posts-list-item__author" href="/startup/partne">
+                          <img class="ava" src="/upload/startups/s_5d44345283c14.jpg" alt="Партнеры Spark">
+                        <span class="name" title="Реклама на Spark">Партнеры Spark</span>
+        </a>
+
+        
+
+    </div>
+
+    <div class="posts-list-item__body clear">
+           
+                        
+        
+        <a class="posts-list-item__title" href="/startup/partne/blog/69100/kak-ne-isportit-svoyu-pervuyu-zakupku" >Как не испортить свою первую закупку</a>
+
+        <div class="posts-list-item__text mobile_pointer" onclick="user.mobileLink('/startup/partne/blog/69100/kak-ne-isportit-svoyu-pervuyu-zakupku')">
+                            Первые закупки — это всегда стресс и суматоха, в которой легко упустить какую-то деталь, а вместе с ней и контракт. Как избежать ошибок, которые чаще всего встречаются у начинающих участников торгов, расскажет эксперт Контура по закупкам Елена Ежова.                    </div>
+    </div>
+
+            <div class="posts-list-item__cover_big pointer p_rel"  onclick="spark.ajax.segue('/startup/partne/blog/69100/kak-ne-isportit-svoyu-pervuyu-zakupku', null, event)">
+            <img src="/upload/blogs_covers/feed_5fbd0db155bf9.jpg" alt="Как не испортить свою первую закупку" />
+        </div>
+    
+
+    <div class="posts-list-item__footer">
+
+        
+            <a class="starred_list_bage fl_r js-emoji-included" href="/blogs/starred">
+                <span class="starred_list_bage--icon">😼 </span>
+                Выбор редакции
+            </a>
+
+        
+        
+        <a id ="postComments_69100" class="posts-list-item__counter" href="/startup/partne/blog/69100/kak-ne-isportit-svoyu-pervuyu-zakupku" data-post-data='{"to":"comments"}'>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path d="M13.346 2.81c-.675 0-1.327.088-1.94.247-1.022-.4-2.162-.626-3.364-.626C3.67 2.43.112 5.4.112 9.053c0 1.937.994 3.747 2.738 5.007v3.51l3.638-2.025c.514.085 1.036.13 1.553.13 2.168 0 4.135-.73 5.567-1.912.328-.01.656-.043.98-.095l3.074 1.71v-2.97c1.418-1.04 2.225-2.527 2.225-4.117.002-3.02-2.932-5.48-6.54-5.48zM8.042 14.607c-.516 0-1.038-.05-1.55-.144l-.188-.036-2.386 1.33v-2.26l-.237-.16c-1.59-1.062-2.5-2.624-2.5-4.284 0-3.062 3.08-5.554 6.863-5.554.61 0 1.203.066 1.767.188C8.004 4.66 6.805 6.36 6.805 8.29c0 2.61 2.19 4.796 5.11 5.343-1.102.614-2.436.973-3.873.973zm8.792-2.92l-.237.158v1.72l-1.82-1.014h-.005l-.185.036c-.41.077-.826.115-1.24.115-.044 0-.088 0-.133-.002-2.957-.057-5.34-2.012-5.34-4.408 0-1.864 1.44-3.46 3.472-4.105.518-.164 1.073-.267 1.653-.297.114-.006.23-.01.347-.01 3.02 0 5.474 1.98 5.474 4.41 0 1.316-.723 2.554-1.986 3.398z"></path></svg>0            <span class="mobile_hide">комментариев</span>
+        </a>
+
+    </div>
+
+</div><div class="posts-list-item island clear   " name="post-list-item" data-id="69075">
+
+    
+    <div class="posts-list-item__header">
+        <span class="posts-list-item__star " onclick="user.star( $(this) , {type: 1, target: 69075, $parent: $(this) , $value: $(this).find('.value') });">
+            <i class="icon-star-1" title="Добавить в избранное"></i>
+        </span>
+                        <span class="posts-list-item__time">
+                            7 дней назад                    </span>
+        <a class="posts-list-item__author" href="/startup/picom">
+                          <img class="ava" src="/upload/startups/s_5ef1ee8d3c419.jpg" alt="«Пиком»‎">
+                        <span class="name" title="С 2000 года создаем IT-решения для бизнеса и делаем это хорошо.">«Пиком»‎</span>
+        </a>
+
+        
+
+    </div>
+
+    <div class="posts-list-item__body clear">
+           
+                        
+        
+            <div class="posts-list-item__cover pointer p_rel"  onclick="spark.ajax.segue('/startup/picom/blog/69075/trendi-seo-optimizatsii-v-2021', null, event)">
+                                <img src="/upload/blogs_covers/l_5fbcd7c85a556.jpg" alt="Тренды SEO-оптимизации в 2021" />
+            </div>
+        
+        <a class="posts-list-item__title" href="/startup/picom/blog/69075/trendi-seo-optimizatsii-v-2021" >Тренды SEO-оптимизации в 2021</a>
+
+        <div class="posts-list-item__text mobile_pointer" onclick="user.mobileLink('/startup/picom/blog/69075/trendi-seo-optimizatsii-v-2021')">
+                            То, что сегодня является лишь одним из вариантов SEO-продвижения компании, завтра может стать обязательным условием для успешного ведения бизнеса.                    </div>
+    </div>
+
+    
+
+    <div class="posts-list-item__footer">
+
+        
+            <a class="starred_list_bage fl_r js-emoji-included" href="/blogs/starred">
+                <span class="starred_list_bage--icon">😼 </span>
+                Выбор редакции
+            </a>
+
+        
+        
+        <a id ="postComments_69075" class="posts-list-item__counter" href="/startup/picom/blog/69075/trendi-seo-optimizatsii-v-2021" data-post-data='{"to":"comments"}'>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path d="M13.346 2.81c-.675 0-1.327.088-1.94.247-1.022-.4-2.162-.626-3.364-.626C3.67 2.43.112 5.4.112 9.053c0 1.937.994 3.747 2.738 5.007v3.51l3.638-2.025c.514.085 1.036.13 1.553.13 2.168 0 4.135-.73 5.567-1.912.328-.01.656-.043.98-.095l3.074 1.71v-2.97c1.418-1.04 2.225-2.527 2.225-4.117.002-3.02-2.932-5.48-6.54-5.48zM8.042 14.607c-.516 0-1.038-.05-1.55-.144l-.188-.036-2.386 1.33v-2.26l-.237-.16c-1.59-1.062-2.5-2.624-2.5-4.284 0-3.062 3.08-5.554 6.863-5.554.61 0 1.203.066 1.767.188C8.004 4.66 6.805 6.36 6.805 8.29c0 2.61 2.19 4.796 5.11 5.343-1.102.614-2.436.973-3.873.973zm8.792-2.92l-.237.158v1.72l-1.82-1.014h-.005l-.185.036c-.41.077-.826.115-1.24.115-.044 0-.088 0-.133-.002-2.957-.057-5.34-2.012-5.34-4.408 0-1.864 1.44-3.46 3.472-4.105.518-.164 1.073-.267 1.653-.297.114-.006.23-.01.347-.01 3.02 0 5.474 1.98 5.474 4.41 0 1.316-.723 2.554-1.986 3.398z"></path></svg>0            <span class="mobile_hide">комментариев</span>
+        </a>
+
+    </div>
+
+</div><div class="posts-list-item island clear  posts-list-item__richview " name="post-list-item" data-id="69072">
+
+    
+    <div class="posts-list-item__header">
+        <span class="posts-list-item__star " onclick="user.star( $(this) , {type: 1, target: 69072, $parent: $(this) , $value: $(this).find('.value') });">
+            <i class="icon-star-1" title="Добавить в избранное"></i>
+        </span>
+                        <span class="posts-list-item__time">
+                            7 дней назад                    </span>
+        <a class="posts-list-item__author" href="/startup/rezartagency">
+                          <img class="ava" src="/upload/startups/s_5af1950d4a54b.jpg" alt="Rezart Agency">
+                        <span class="name" title="Первые, кто создает маркетинг-системы. Наш девиз - Результаты вдохновляют!">Rezart Agency</span>
+        </a>
+
+        
+
+    </div>
+
+    <div class="posts-list-item__body clear">
+           
+                        
+        
+        <a class="posts-list-item__title" href="/startup/rezartagency/blog/69072/kak-poluchit-pervuyu-1000-podpischikov-v-instagram-instruktsiya-i-fishki" >Как получить первую 1000 подписчиков в Instagram: инструкция и фишки</a>
+
+        <div class="posts-list-item__text mobile_pointer" onclick="user.mobileLink('/startup/rezartagency/blog/69072/kak-poluchit-pervuyu-1000-podpischikov-v-instagram-instruktsiya-i-fishki')">
+                            В этом материале будем максимально практично разбираться с этим вопросом и расскажем: про концепцию и оформление аккаунта Инстаграм; как получить подписчиков в Instagram; как продвигать аккаунт и усилить привлечение подписчиков.                    </div>
+    </div>
+
+            <div class="posts-list-item__cover_big pointer p_rel"  onclick="spark.ajax.segue('/startup/rezartagency/blog/69072/kak-poluchit-pervuyu-1000-podpischikov-v-instagram-instruktsiya-i-fishki', null, event)">
+            <img src="/upload/blogs_covers/feed_5fbccdfb38c8d.jpg" alt="Как получить первую 1000 подписчиков в Instagram: инструкция и фишки" />
+        </div>
+    
+
+    <div class="posts-list-item__footer">
+
+        
+            <a class="starred_list_bage fl_r js-emoji-included" href="/blogs/starred">
+                <span class="starred_list_bage--icon">😼 </span>
+                Выбор редакции
+            </a>
+
+        
+        
+        <a id ="postComments_69072" class="posts-list-item__counter" href="/startup/rezartagency/blog/69072/kak-poluchit-pervuyu-1000-podpischikov-v-instagram-instruktsiya-i-fishki" data-post-data='{"to":"comments"}'>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path d="M13.346 2.81c-.675 0-1.327.088-1.94.247-1.022-.4-2.162-.626-3.364-.626C3.67 2.43.112 5.4.112 9.053c0 1.937.994 3.747 2.738 5.007v3.51l3.638-2.025c.514.085 1.036.13 1.553.13 2.168 0 4.135-.73 5.567-1.912.328-.01.656-.043.98-.095l3.074 1.71v-2.97c1.418-1.04 2.225-2.527 2.225-4.117.002-3.02-2.932-5.48-6.54-5.48zM8.042 14.607c-.516 0-1.038-.05-1.55-.144l-.188-.036-2.386 1.33v-2.26l-.237-.16c-1.59-1.062-2.5-2.624-2.5-4.284 0-3.062 3.08-5.554 6.863-5.554.61 0 1.203.066 1.767.188C8.004 4.66 6.805 6.36 6.805 8.29c0 2.61 2.19 4.796 5.11 5.343-1.102.614-2.436.973-3.873.973zm8.792-2.92l-.237.158v1.72l-1.82-1.014h-.005l-.185.036c-.41.077-.826.115-1.24.115-.044 0-.088 0-.133-.002-2.957-.057-5.34-2.012-5.34-4.408 0-1.864 1.44-3.46 3.472-4.105.518-.164 1.073-.267 1.653-.297.114-.006.23-.01.347-.01 3.02 0 5.474 1.98 5.474 4.41 0 1.316-.723 2.554-1.986 3.398z"></path></svg>1            <span class="mobile_hide">комментарий</span>
+        </a>
+
+    </div>
+
+</div><div class="posts-list-item island clear   " name="post-list-item" data-id="69050">
+
+    
+    <div class="posts-list-item__header">
+        <span class="posts-list-item__star " onclick="user.star( $(this) , {type: 6, target: 69050, $parent: $(this) , $value: $(this).find('.value') });">
+            <i class="icon-star-1" title="Добавить в избранное"></i>
+        </span>
+                        <span class="posts-list-item__time">
+                            8 дней назад                    </span>
+        <a class="posts-list-item__author" href="/user/76366">
+                          <img class="ava" src="upload/profile/s_5fb9aaa979c74.jpg" alt="Design Glory">
+                        <span class="name" title="Перевод статей передовых зарубежных специалистов, UX инсайды от топовых брендов.
+telgram : https://t.me/uxidesign">Design Glory</span>
+        </a>
+
+        
+
+    </div>
+
+    <div class="posts-list-item__body clear">
+           
+                        
+        
+            <div class="posts-list-item__cover pointer p_rel"  onclick="spark.ajax.segue('/user/76366/blog/69050/ar-ai-konsierzh-dlya-kommercheskih-zdanij-ot-resonai', null, event)">
+                                <img src="/upload/blogs_covers/l_5fbc0f1b89b59.jpg" alt="AR-AI консьерж для коммерческих зданий от Resonai" />
+            </div>
+        
+        <a class="posts-list-item__title" href="/user/76366/blog/69050/ar-ai-konsierzh-dlya-kommercheskih-zdanij-ot-resonai" >AR-AI консьерж для коммерческих зданий от Resonai</a>
+
+        <div class="posts-list-item__text mobile_pointer" onclick="user.mobileLink('/user/76366/blog/69050/ar-ai-konsierzh-dlya-kommercheskih-zdanij-ot-resonai')">
+                            Resonai представили Vera Concierge - систему дополненной реальности, которая заменяет службу поддержки любого коммерческого объекта мобильным персонализированным AI-помощником.                    </div>
+    </div>
+
+    
+
+    <div class="posts-list-item__footer">
+
+        
+            <a class="starred_list_bage fl_r js-emoji-included" href="/blogs/starred">
+                <span class="starred_list_bage--icon">😼 </span>
+                Выбор редакции
+            </a>
+
+        
+        
+        <a id ="postComments_69050" class="posts-list-item__counter" href="/user/76366/blog/69050/ar-ai-konsierzh-dlya-kommercheskih-zdanij-ot-resonai" data-post-data='{"to":"comments"}'>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path d="M13.346 2.81c-.675 0-1.327.088-1.94.247-1.022-.4-2.162-.626-3.364-.626C3.67 2.43.112 5.4.112 9.053c0 1.937.994 3.747 2.738 5.007v3.51l3.638-2.025c.514.085 1.036.13 1.553.13 2.168 0 4.135-.73 5.567-1.912.328-.01.656-.043.98-.095l3.074 1.71v-2.97c1.418-1.04 2.225-2.527 2.225-4.117.002-3.02-2.932-5.48-6.54-5.48zM8.042 14.607c-.516 0-1.038-.05-1.55-.144l-.188-.036-2.386 1.33v-2.26l-.237-.16c-1.59-1.062-2.5-2.624-2.5-4.284 0-3.062 3.08-5.554 6.863-5.554.61 0 1.203.066 1.767.188C8.004 4.66 6.805 6.36 6.805 8.29c0 2.61 2.19 4.796 5.11 5.343-1.102.614-2.436.973-3.873.973zm8.792-2.92l-.237.158v1.72l-1.82-1.014h-.005l-.185.036c-.41.077-.826.115-1.24.115-.044 0-.088 0-.133-.002-2.957-.057-5.34-2.012-5.34-4.408 0-1.864 1.44-3.46 3.472-4.105.518-.164 1.073-.267 1.653-.297.114-.006.23-.01.347-.01 3.02 0 5.474 1.98 5.474 4.41 0 1.316-.723 2.554-1.986 3.398z"></path></svg>0            <span class="mobile_hide">комментариев</span>
+        </a>
+
+    </div>
+
+</div><div class="posts-list-item island clear  posts-list-item__richview " name="post-list-item" data-id="69034">
+
+    
+    <div class="posts-list-item__header">
+        <span class="posts-list-item__star " onclick="user.star( $(this) , {type: 1, target: 69034, $parent: $(this) , $value: $(this).find('.value') });">
+            <i class="icon-star-1" title="Добавить в избранное"></i>
+        </span>
+                        <span class="posts-list-item__time">
+                            8 дней назад                    </span>
+        <a class="posts-list-item__author" href="/startup/sendpulse">
+                          <img class="ava" src="/upload/startups/s_5853ed56f1de6.jpg" alt="SendPulse">
+                        <span class="name" title="SendPulse автоматически увеличивает открываемость маркетинговых email рассылок">SendPulse</span>
+        </a>
+
+        
+
+    </div>
+
+    <div class="posts-list-item__body clear">
+           
+                        
+        
+        <a class="posts-list-item__title" href="/startup/sendpulse/blog/69034/poleznie-instrumenti-marketologa-poleznie-telegram-kanali-dlya-vseh-kto-rabotaet-v-digital" >Полезные инструменты маркетолога Полезные Телеграм-каналы для всех, кто работает в digital</a>
+
+        <div class="posts-list-item__text mobile_pointer" onclick="user.mobileLink('/startup/sendpulse/blog/69034/poleznie-instrumenti-marketologa-poleznie-telegram-kanali-dlya-vseh-kto-rabotaet-v-digital')">
+                            Мы исследовали Telegram и подобрали русскоязычные Телеграм-каналы, которые будут поставлять вам последние новости интернет-маркетинга, советы, лайфхаки и станут дополнительным источником самообразования. Устраивайтесь поудобнее и подписывайтесь!                    </div>
+    </div>
+
+    
+
+    <div class="posts-list-item__footer">
+
+        
+            <a class="starred_list_bage fl_r js-emoji-included" href="/blogs/starred">
+                <span class="starred_list_bage--icon">😼 </span>
+                Выбор редакции
+            </a>
+
+        
+        
+        <a id ="postComments_69034" class="posts-list-item__counter" href="/startup/sendpulse/blog/69034/poleznie-instrumenti-marketologa-poleznie-telegram-kanali-dlya-vseh-kto-rabotaet-v-digital" data-post-data='{"to":"comments"}'>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path d="M13.346 2.81c-.675 0-1.327.088-1.94.247-1.022-.4-2.162-.626-3.364-.626C3.67 2.43.112 5.4.112 9.053c0 1.937.994 3.747 2.738 5.007v3.51l3.638-2.025c.514.085 1.036.13 1.553.13 2.168 0 4.135-.73 5.567-1.912.328-.01.656-.043.98-.095l3.074 1.71v-2.97c1.418-1.04 2.225-2.527 2.225-4.117.002-3.02-2.932-5.48-6.54-5.48zM8.042 14.607c-.516 0-1.038-.05-1.55-.144l-.188-.036-2.386 1.33v-2.26l-.237-.16c-1.59-1.062-2.5-2.624-2.5-4.284 0-3.062 3.08-5.554 6.863-5.554.61 0 1.203.066 1.767.188C8.004 4.66 6.805 6.36 6.805 8.29c0 2.61 2.19 4.796 5.11 5.343-1.102.614-2.436.973-3.873.973zm8.792-2.92l-.237.158v1.72l-1.82-1.014h-.005l-.185.036c-.41.077-.826.115-1.24.115-.044 0-.088 0-.133-.002-2.957-.057-5.34-2.012-5.34-4.408 0-1.864 1.44-3.46 3.472-4.105.518-.164 1.073-.267 1.653-.297.114-.006.23-.01.347-.01 3.02 0 5.474 1.98 5.474 4.41 0 1.316-.723 2.554-1.986 3.398z"></path></svg>1            <span class="mobile_hide">комментарий</span>
+        </a>
+
+    </div>
+
+</div><div class="posts-list-item island clear   " name="post-list-item" data-id="69030">
+
+    
+    <div class="posts-list-item__header">
+        <span class="posts-list-item__star " onclick="user.star( $(this) , {type: 1, target: 69030, $parent: $(this) , $value: $(this).find('.value') });">
+            <i class="icon-star-1" title="Добавить в избранное"></i>
+        </span>
+                        <span class="posts-list-item__time">
+                            8 дней назад                    </span>
+        <a class="posts-list-item__author" href="/startup/esputnik">
+                          <img class="ava" src="/upload/startups/s_5c6bdbce4a269.jpg" alt="eSputnik">
+                        <span class="name" title="eSputnik.com — сервис для автоматизации маркетинга">eSputnik</span>
+        </a>
+
+        
+
+    </div>
+
+    <div class="posts-list-item__body clear">
+           
+                        
+        
+            <div class="posts-list-item__cover pointer p_rel"  onclick="spark.ajax.segue('/startup/esputnik/blog/69030/email-rassilki-dlya-apple-watch-kak-adaptirovat', null, event)">
+                                <img src="/upload/blogs_covers/l_5fbcac0dcafec.jpg" alt="Email рассылки для Apple Watch: как адаптировать" />
+            </div>
+        
+        <a class="posts-list-item__title" href="/startup/esputnik/blog/69030/email-rassilki-dlya-apple-watch-kak-adaptirovat" >Email рассылки для Apple Watch: как адаптировать</a>
+
+        <div class="posts-list-item__text mobile_pointer" onclick="user.mobileLink('/startup/esputnik/blog/69030/email-rassilki-dlya-apple-watch-kak-adaptirovat')">
+                            Адаптация рассылок под новые мобильные устройства и платформы – одна из главных проблем емейл-маркетинга последних лет.                    </div>
+    </div>
+
+    
+
+    <div class="posts-list-item__footer">
+
+        
+            <a class="starred_list_bage fl_r js-emoji-included" href="/blogs/starred">
+                <span class="starred_list_bage--icon">😼 </span>
+                Выбор редакции
+            </a>
+
+        
+        
+        <a id ="postComments_69030" class="posts-list-item__counter" href="/startup/esputnik/blog/69030/email-rassilki-dlya-apple-watch-kak-adaptirovat" data-post-data='{"to":"comments"}'>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path d="M13.346 2.81c-.675 0-1.327.088-1.94.247-1.022-.4-2.162-.626-3.364-.626C3.67 2.43.112 5.4.112 9.053c0 1.937.994 3.747 2.738 5.007v3.51l3.638-2.025c.514.085 1.036.13 1.553.13 2.168 0 4.135-.73 5.567-1.912.328-.01.656-.043.98-.095l3.074 1.71v-2.97c1.418-1.04 2.225-2.527 2.225-4.117.002-3.02-2.932-5.48-6.54-5.48zM8.042 14.607c-.516 0-1.038-.05-1.55-.144l-.188-.036-2.386 1.33v-2.26l-.237-.16c-1.59-1.062-2.5-2.624-2.5-4.284 0-3.062 3.08-5.554 6.863-5.554.61 0 1.203.066 1.767.188C8.004 4.66 6.805 6.36 6.805 8.29c0 2.61 2.19 4.796 5.11 5.343-1.102.614-2.436.973-3.873.973zm8.792-2.92l-.237.158v1.72l-1.82-1.014h-.005l-.185.036c-.41.077-.826.115-1.24.115-.044 0-.088 0-.133-.002-2.957-.057-5.34-2.012-5.34-4.408 0-1.864 1.44-3.46 3.472-4.105.518-.164 1.073-.267 1.653-.297.114-.006.23-.01.347-.01 3.02 0 5.474 1.98 5.474 4.41 0 1.316-.723 2.554-1.986 3.398z"></path></svg>0            <span class="mobile_hide">комментариев</span>
+        </a>
+
+    </div>
+
+</div><div class="posts-list-item island clear   " name="post-list-item" data-id="69014">
+
+    
+    <div class="posts-list-item__header">
+        <span class="posts-list-item__star " onclick="user.star( $(this) , {type: 1, target: 69014, $parent: $(this) , $value: $(this).find('.value') });">
+            <i class="icon-star-1" title="Добавить в избранное"></i>
+        </span>
+                        <span class="posts-list-item__time">
+                            8 дней назад                    </span>
+        <a class="posts-list-item__author" href="/startup/madwins">
+                          <img class="ava" src="/upload/startups/s_5cd041452fc3e.jpg" alt="Madwins">
+                        <span class="name" title="SMM-агентство. Продвижение в соцсетях Вконтакте, Facebook, Instagram, Youtube.">Madwins</span>
+        </a>
+
+        
+
+    </div>
+
+    <div class="posts-list-item__body clear">
+           
+                        
+        
+            <div class="posts-list-item__cover pointer p_rel"  onclick="spark.ajax.segue('/startup/madwins/blog/69014/tsennosti-brenda-kak-vizvat-lyubov-k-produktu', null, event)">
+                                <img src="/upload/blogs_covers/l_5fbb8ffa0db6e.jpg" alt="Ценности бренда: как вызвать любовь к продукту" />
+            </div>
+        
+        <a class="posts-list-item__title" href="/startup/madwins/blog/69014/tsennosti-brenda-kak-vizvat-lyubov-k-produktu" >Ценности бренда: как вызвать любовь к продукту</a>
+
+        <div class="posts-list-item__text mobile_pointer" onclick="user.mobileLink('/startup/madwins/blog/69014/tsennosti-brenda-kak-vizvat-lyubov-k-produktu')">
+                            Ценности бренда нужны, чтобы завоевать доверие и любовь потребителей. Ведь бренд, как человек — рождается, растет и развивается. И нуждается в любви. Желательно, всеобщей. Ведь теплое отношение  аудитории напрямую влияет на продажи.                    </div>
+    </div>
+
+    
+
+    <div class="posts-list-item__footer">
+
+        
+            <a class="starred_list_bage fl_r js-emoji-included" href="/blogs/starred">
+                <span class="starred_list_bage--icon">😼 </span>
+                Выбор редакции
+            </a>
+
+        
+        
+        <a id ="postComments_69014" class="posts-list-item__counter" href="/startup/madwins/blog/69014/tsennosti-brenda-kak-vizvat-lyubov-k-produktu" data-post-data='{"to":"comments"}'>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path d="M13.346 2.81c-.675 0-1.327.088-1.94.247-1.022-.4-2.162-.626-3.364-.626C3.67 2.43.112 5.4.112 9.053c0 1.937.994 3.747 2.738 5.007v3.51l3.638-2.025c.514.085 1.036.13 1.553.13 2.168 0 4.135-.73 5.567-1.912.328-.01.656-.043.98-.095l3.074 1.71v-2.97c1.418-1.04 2.225-2.527 2.225-4.117.002-3.02-2.932-5.48-6.54-5.48zM8.042 14.607c-.516 0-1.038-.05-1.55-.144l-.188-.036-2.386 1.33v-2.26l-.237-.16c-1.59-1.062-2.5-2.624-2.5-4.284 0-3.062 3.08-5.554 6.863-5.554.61 0 1.203.066 1.767.188C8.004 4.66 6.805 6.36 6.805 8.29c0 2.61 2.19 4.796 5.11 5.343-1.102.614-2.436.973-3.873.973zm8.792-2.92l-.237.158v1.72l-1.82-1.014h-.005l-.185.036c-.41.077-.826.115-1.24.115-.044 0-.088 0-.133-.002-2.957-.057-5.34-2.012-5.34-4.408 0-1.864 1.44-3.46 3.472-4.105.518-.164 1.073-.267 1.653-.297.114-.006.23-.01.347-.01 3.02 0 5.474 1.98 5.474 4.41 0 1.316-.723 2.554-1.986 3.398z"></path></svg>0            <span class="mobile_hide">комментариев</span>
+        </a>
+
+    </div>
+
+</div><div class="posts-list-item island clear   " name="post-list-item" data-id="69012">
+
+    
+    <div class="posts-list-item__header">
+        <span class="posts-list-item__star " onclick="user.star( $(this) , {type: 1, target: 69012, $parent: $(this) , $value: $(this).find('.value') });">
+            <i class="icon-star-1" title="Добавить в избранное"></i>
+        </span>
+                        <span class="posts-list-item__time">
+                            8 дней назад                    </span>
+        <a class="posts-list-item__author" href="/startup/marketica">
+                          <img class="ava" src="/upload/startups/s_5fbb8f09c1547.jpg" alt="Маркетика">
+                        <span class="name" title="Одно из первых интернет-маркетинговых агентств полного цикла в Сибири">Маркетика</span>
+        </a>
+
+        
+
+    </div>
+
+    <div class="posts-list-item__body clear">
+           
+                        
+        
+            <div class="posts-list-item__cover pointer p_rel"  onclick="spark.ajax.segue('/startup/marketica/blog/69012/kak-organizovat-onlajn-meropriyatie-v-epohu-pandemii-i-privlech-12-tisyach-uchastnikov', null, event)">
+                                <img src="upload/other/l_5fbb89aed6fcc.jpg" alt="Как организовать онлайн-мероприятие в эпоху пандемии и привлечь 12 тысяч участников?" />
+            </div>
+        
+        <a class="posts-list-item__title" href="/startup/marketica/blog/69012/kak-organizovat-onlajn-meropriyatie-v-epohu-pandemii-i-privlech-12-tisyach-uchastnikov" >Как организовать онлайн-мероприятие в эпоху пандемии и привлечь 12 тысяч участников?</a>
+
+        <div class="posts-list-item__text mobile_pointer" onclick="user.mobileLink('/startup/marketica/blog/69012/kak-organizovat-onlajn-meropriyatie-v-epohu-pandemii-i-privlech-12-tisyach-uchastnikov')">
+                            В мае к нам обратилась концертная фирма “Сабона” из города Екатеринбурга с интересной задачей - привлечь участников на всероссийский онлайн-марафон «Музыка.Победы» и совместно установить рекорд России...                    </div>
+    </div>
+
+    
+
+    <div class="posts-list-item__footer">
+
+        
+            <a class="starred_list_bage fl_r js-emoji-included" href="/blogs/starred">
+                <span class="starred_list_bage--icon">😼 </span>
+                Выбор редакции
+            </a>
+
+        
+        
+        <a id ="postComments_69012" class="posts-list-item__counter" href="/startup/marketica/blog/69012/kak-organizovat-onlajn-meropriyatie-v-epohu-pandemii-i-privlech-12-tisyach-uchastnikov" data-post-data='{"to":"comments"}'>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path d="M13.346 2.81c-.675 0-1.327.088-1.94.247-1.022-.4-2.162-.626-3.364-.626C3.67 2.43.112 5.4.112 9.053c0 1.937.994 3.747 2.738 5.007v3.51l3.638-2.025c.514.085 1.036.13 1.553.13 2.168 0 4.135-.73 5.567-1.912.328-.01.656-.043.98-.095l3.074 1.71v-2.97c1.418-1.04 2.225-2.527 2.225-4.117.002-3.02-2.932-5.48-6.54-5.48zM8.042 14.607c-.516 0-1.038-.05-1.55-.144l-.188-.036-2.386 1.33v-2.26l-.237-.16c-1.59-1.062-2.5-2.624-2.5-4.284 0-3.062 3.08-5.554 6.863-5.554.61 0 1.203.066 1.767.188C8.004 4.66 6.805 6.36 6.805 8.29c0 2.61 2.19 4.796 5.11 5.343-1.102.614-2.436.973-3.873.973zm8.792-2.92l-.237.158v1.72l-1.82-1.014h-.005l-.185.036c-.41.077-.826.115-1.24.115-.044 0-.088 0-.133-.002-2.957-.057-5.34-2.012-5.34-4.408 0-1.864 1.44-3.46 3.472-4.105.518-.164 1.073-.267 1.653-.297.114-.006.23-.01.347-.01 3.02 0 5.474 1.98 5.474 4.41 0 1.316-.723 2.554-1.986 3.398z"></path></svg>2            <span class="mobile_hide">комментария</span>
+        </a>
+
+    </div>
+
+</div><div class="posts-list-item island clear   " name="post-list-item" data-id="68993">
+
+    
+    <div class="posts-list-item__header">
+        <span class="posts-list-item__star " onclick="user.star( $(this) , {type: 1, target: 68993, $parent: $(this) , $value: $(this).find('.value') });">
+            <i class="icon-star-1" title="Добавить в избранное"></i>
+        </span>
+                        <span class="posts-list-item__time">
+                            8 дней назад                    </span>
+        <a class="posts-list-item__author" href="/startup/byyd">
+                          <img class="ava" src="/upload/startups/s_54fa22718d221.jpg" alt="BYYD">
+                        <span class="name" title="Мобильная рекламная платформа">BYYD</span>
+        </a>
+
+        
+
+    </div>
+
+    <div class="posts-list-item__body clear">
+           
+                        
+        
+            <div class="posts-list-item__cover pointer p_rel"  onclick="spark.ajax.segue('/startup/byyd/blog/68993/avtomatizatsiya-mobilnoj-reklami-glavnie-preimuschestva', null, event)">
+                                <img src="/upload/blogs_covers/l_5fbb4bcf939af.jpg" alt="Автоматизация мобильной рекламы: главные преимущества" />
+            </div>
+        
+        <a class="posts-list-item__title" href="/startup/byyd/blog/68993/avtomatizatsiya-mobilnoj-reklami-glavnie-preimuschestva" >Автоматизация мобильной рекламы: главные преимущества</a>
+
+        <div class="posts-list-item__text mobile_pointer" onclick="user.mobileLink('/startup/byyd/blog/68993/avtomatizatsiya-mobilnoj-reklami-glavnie-preimuschestva')">
+                            Какие преимущества дает автоматизация? Какие процессы в рекламе могут быть автоматизированы? Даем ответы в новой статье.                    </div>
+    </div>
+
+    
+
+    <div class="posts-list-item__footer">
+
+        
+            <a class="starred_list_bage fl_r js-emoji-included" href="/blogs/starred">
+                <span class="starred_list_bage--icon">😼 </span>
+                Выбор редакции
+            </a>
+
+        
+        
+        <a id ="postComments_68993" class="posts-list-item__counter" href="/startup/byyd/blog/68993/avtomatizatsiya-mobilnoj-reklami-glavnie-preimuschestva" data-post-data='{"to":"comments"}'>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path d="M13.346 2.81c-.675 0-1.327.088-1.94.247-1.022-.4-2.162-.626-3.364-.626C3.67 2.43.112 5.4.112 9.053c0 1.937.994 3.747 2.738 5.007v3.51l3.638-2.025c.514.085 1.036.13 1.553.13 2.168 0 4.135-.73 5.567-1.912.328-.01.656-.043.98-.095l3.074 1.71v-2.97c1.418-1.04 2.225-2.527 2.225-4.117.002-3.02-2.932-5.48-6.54-5.48zM8.042 14.607c-.516 0-1.038-.05-1.55-.144l-.188-.036-2.386 1.33v-2.26l-.237-.16c-1.59-1.062-2.5-2.624-2.5-4.284 0-3.062 3.08-5.554 6.863-5.554.61 0 1.203.066 1.767.188C8.004 4.66 6.805 6.36 6.805 8.29c0 2.61 2.19 4.796 5.11 5.343-1.102.614-2.436.973-3.873.973zm8.792-2.92l-.237.158v1.72l-1.82-1.014h-.005l-.185.036c-.41.077-.826.115-1.24.115-.044 0-.088 0-.133-.002-2.957-.057-5.34-2.012-5.34-4.408 0-1.864 1.44-3.46 3.472-4.105.518-.164 1.073-.267 1.653-.297.114-.006.23-.01.347-.01 3.02 0 5.474 1.98 5.474 4.41 0 1.316-.723 2.554-1.986 3.398z"></path></svg>0            <span class="mobile_hide">комментариев</span>
+        </a>
+
+    </div>
+
+</div><div class="posts-list-item island clear  posts-list-item__richview " name="post-list-item" data-id="68930">
+
+    
+    <div class="posts-list-item__header">
+        <span class="posts-list-item__star " onclick="user.star( $(this) , {type: 1, target: 68930, $parent: $(this) , $value: $(this).find('.value') });">
+            <i class="icon-star-1" title="Добавить в избранное"></i>
+        </span>
+                        <span class="posts-list-item__time">
+                            11 дней назад                    </span>
+        <a class="posts-list-item__author" href="/startup/krokit">
+                          <img class="ava" src="/upload/startups/s_default.png" alt="KrokIT">
+                        <span class="name" title="">KrokIT</span>
+        </a>
+
+        
+
+    </div>
+
+    <div class="posts-list-item__body clear">
+           
+                        
+        
+        <a class="posts-list-item__title" href="/startup/krokit/blog/68930/kak-garantirovanno-zapustit-it-startap" >Как гарантированно запустить IT-стартап</a>
+
+        <div class="posts-list-item__text mobile_pointer" onclick="user.mobileLink('/startup/krokit/blog/68930/kak-garantirovanno-zapustit-it-startap')">
+                            Хотите запустить свой стартап, но боитесь рисковать? Сегодня стартап-акселератор KrokIT поделится с вами кратким, но эффективным пошаговым планом “Как гарантированно запустить IT-стартап ”.                    </div>
+    </div>
+
+            <div class="posts-list-item__cover_big pointer p_rel"  onclick="spark.ajax.segue('/startup/krokit/blog/68930/kak-garantirovanno-zapustit-it-startap', null, event)">
+            <img src="/upload/blogs_covers/feed_5fb7cd9b54899.jpg" alt="Как гарантированно запустить IT-стартап" />
+        </div>
+    
+
+    <div class="posts-list-item__footer">
+
+        
+            <a class="starred_list_bage fl_r js-emoji-included" href="/blogs/starred">
+                <span class="starred_list_bage--icon">😼 </span>
+                Выбор редакции
+            </a>
+
+        
+        
+        <a id ="postComments_68930" class="posts-list-item__counter" href="/startup/krokit/blog/68930/kak-garantirovanno-zapustit-it-startap" data-post-data='{"to":"comments"}'>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path d="M13.346 2.81c-.675 0-1.327.088-1.94.247-1.022-.4-2.162-.626-3.364-.626C3.67 2.43.112 5.4.112 9.053c0 1.937.994 3.747 2.738 5.007v3.51l3.638-2.025c.514.085 1.036.13 1.553.13 2.168 0 4.135-.73 5.567-1.912.328-.01.656-.043.98-.095l3.074 1.71v-2.97c1.418-1.04 2.225-2.527 2.225-4.117.002-3.02-2.932-5.48-6.54-5.48zM8.042 14.607c-.516 0-1.038-.05-1.55-.144l-.188-.036-2.386 1.33v-2.26l-.237-.16c-1.59-1.062-2.5-2.624-2.5-4.284 0-3.062 3.08-5.554 6.863-5.554.61 0 1.203.066 1.767.188C8.004 4.66 6.805 6.36 6.805 8.29c0 2.61 2.19 4.796 5.11 5.343-1.102.614-2.436.973-3.873.973zm8.792-2.92l-.237.158v1.72l-1.82-1.014h-.005l-.185.036c-.41.077-.826.115-1.24.115-.044 0-.088 0-.133-.002-2.957-.057-5.34-2.012-5.34-4.408 0-1.864 1.44-3.46 3.472-4.105.518-.164 1.073-.267 1.653-.297.114-.006.23-.01.347-.01 3.02 0 5.474 1.98 5.474 4.41 0 1.316-.723 2.554-1.986 3.398z"></path></svg>0            <span class="mobile_hide">комментариев</span>
+        </a>
+
+    </div>
+
+</div><div class="posts-list-item island clear  posts-list-item__richview " name="post-list-item" data-id="68925">
+
+    
+    <div class="posts-list-item__header">
+        <span class="posts-list-item__star " onclick="user.star( $(this) , {type: 1, target: 68925, $parent: $(this) , $value: $(this).find('.value') });">
+            <i class="icon-star-1" title="Добавить в избранное"></i>
+        </span>
+                        <span class="posts-list-item__time">
+                            11 дней назад                    </span>
+        <a class="posts-list-item__author" href="/startup/mello">
+                          <img class="ava" src="/upload/startups/s_5d7778653019b.jpg" alt="Mello">
+                        <span class="name" title="Экспертное агентство специализирующееся на услугах performance marketing">Mello</span>
+        </a>
+
+        
+
+    </div>
+
+    <div class="posts-list-item__body clear">
+           
+                        
+        
+        <a class="posts-list-item__title" href="/startup/mello/blog/68925/13-excel-grablej-na-kotorie-mozhet-nastupit-kontekstnik" >13 Excel-граблей, на которые может наступить контекстник</a>
+
+        <div class="posts-list-item__text mobile_pointer" onclick="user.mobileLink('/startup/mello/blog/68925/13-excel-grablej-na-kotorie-mozhet-nastupit-kontekstnik')">
+                            Сколько бы сервисов в стеке специалиста по рекламе не появилось, а работа с Excel никуда не денется.                    </div>
+    </div>
+
+            <div class="posts-list-item__cover_big pointer p_rel"  onclick="spark.ajax.segue('/startup/mello/blog/68925/13-excel-grablej-na-kotorie-mozhet-nastupit-kontekstnik', null, event)">
+            <img src="/upload/blogs_covers/feed_5fb7a9aaead6c.jpg" alt="13 Excel-граблей, на которые может наступить контекстник" />
+        </div>
+    
+
+    <div class="posts-list-item__footer">
+
+        
+            <a class="starred_list_bage fl_r js-emoji-included" href="/blogs/starred">
+                <span class="starred_list_bage--icon">😼 </span>
+                Выбор редакции
+            </a>
+
+        
+        
+        <a id ="postComments_68925" class="posts-list-item__counter" href="/startup/mello/blog/68925/13-excel-grablej-na-kotorie-mozhet-nastupit-kontekstnik" data-post-data='{"to":"comments"}'>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path d="M13.346 2.81c-.675 0-1.327.088-1.94.247-1.022-.4-2.162-.626-3.364-.626C3.67 2.43.112 5.4.112 9.053c0 1.937.994 3.747 2.738 5.007v3.51l3.638-2.025c.514.085 1.036.13 1.553.13 2.168 0 4.135-.73 5.567-1.912.328-.01.656-.043.98-.095l3.074 1.71v-2.97c1.418-1.04 2.225-2.527 2.225-4.117.002-3.02-2.932-5.48-6.54-5.48zM8.042 14.607c-.516 0-1.038-.05-1.55-.144l-.188-.036-2.386 1.33v-2.26l-.237-.16c-1.59-1.062-2.5-2.624-2.5-4.284 0-3.062 3.08-5.554 6.863-5.554.61 0 1.203.066 1.767.188C8.004 4.66 6.805 6.36 6.805 8.29c0 2.61 2.19 4.796 5.11 5.343-1.102.614-2.436.973-3.873.973zm8.792-2.92l-.237.158v1.72l-1.82-1.014h-.005l-.185.036c-.41.077-.826.115-1.24.115-.044 0-.088 0-.133-.002-2.957-.057-5.34-2.012-5.34-4.408 0-1.864 1.44-3.46 3.472-4.105.518-.164 1.073-.267 1.653-.297.114-.006.23-.01.347-.01 3.02 0 5.474 1.98 5.474 4.41 0 1.316-.723 2.554-1.986 3.398z"></path></svg>0            <span class="mobile_hide">комментариев</span>
+        </a>
+
+    </div>
+
+</div><div class="posts-list-item island clear   " name="post-list-item" data-id="68915">
+
+    
+    <div class="posts-list-item__header">
+        <span class="posts-list-item__star " onclick="user.star( $(this) , {type: 6, target: 68915, $parent: $(this) , $value: $(this).find('.value') });">
+            <i class="icon-star-1" title="Добавить в избранное"></i>
+        </span>
+                        <span class="posts-list-item__time">
+                            11 дней назад                    </span>
+        <a class="posts-list-item__author" href="/user/127786">
+                          <img class="ava" src="upload/profile/s_5fb78444c28e0.jpg" alt="Катерина Мирная">
+                        <span class="name" title="Немножко живу. Много работаю. Мало мечтаю.">Катерина Мирная</span>
+        </a>
+
+        
+
+    </div>
+
+    <div class="posts-list-item__body clear">
+           
+                        
+        
+            <div class="posts-list-item__cover pointer p_rel"  onclick="spark.ajax.segue('/user/127786/blog/68915/nachinaj-snachala-kak-naladit-rabotu-s-sotrudnikami-na-udalenke', null, event)">
+                                <img src="/upload/blogs_covers/l_5fb79b3a8de43.jpg" alt="Начинай сначала: как наладить работу с сотрудниками на удаленке" />
+            </div>
+        
+        <a class="posts-list-item__title" href="/user/127786/blog/68915/nachinaj-snachala-kak-naladit-rabotu-s-sotrudnikami-na-udalenke" >Начинай сначала: как наладить работу с сотрудниками на удаленке</a>
+
+        <div class="posts-list-item__text mobile_pointer" onclick="user.mobileLink('/user/127786/blog/68915/nachinaj-snachala-kak-naladit-rabotu-s-sotrudnikami-na-udalenke')">
+                            Главный эксперимент 2020-ого года – удалёнка. Кто-то воспринял и принял ее, кому-то она далась непросто, а кому-то и вовсе только приходится учиться работать в новом формате. Как наладить работу и организовать home office быстро и безболезненно – читайте дальше.                    </div>
+    </div>
+
+    
+
+    <div class="posts-list-item__footer">
+
+        
+            <a class="starred_list_bage fl_r js-emoji-included" href="/blogs/starred">
+                <span class="starred_list_bage--icon">😼 </span>
+                Выбор редакции
+            </a>
+
+        
+        
+        <a id ="postComments_68915" class="posts-list-item__counter" href="/user/127786/blog/68915/nachinaj-snachala-kak-naladit-rabotu-s-sotrudnikami-na-udalenke" data-post-data='{"to":"comments"}'>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path d="M13.346 2.81c-.675 0-1.327.088-1.94.247-1.022-.4-2.162-.626-3.364-.626C3.67 2.43.112 5.4.112 9.053c0 1.937.994 3.747 2.738 5.007v3.51l3.638-2.025c.514.085 1.036.13 1.553.13 2.168 0 4.135-.73 5.567-1.912.328-.01.656-.043.98-.095l3.074 1.71v-2.97c1.418-1.04 2.225-2.527 2.225-4.117.002-3.02-2.932-5.48-6.54-5.48zM8.042 14.607c-.516 0-1.038-.05-1.55-.144l-.188-.036-2.386 1.33v-2.26l-.237-.16c-1.59-1.062-2.5-2.624-2.5-4.284 0-3.062 3.08-5.554 6.863-5.554.61 0 1.203.066 1.767.188C8.004 4.66 6.805 6.36 6.805 8.29c0 2.61 2.19 4.796 5.11 5.343-1.102.614-2.436.973-3.873.973zm8.792-2.92l-.237.158v1.72l-1.82-1.014h-.005l-.185.036c-.41.077-.826.115-1.24.115-.044 0-.088 0-.133-.002-2.957-.057-5.34-2.012-5.34-4.408 0-1.864 1.44-3.46 3.472-4.105.518-.164 1.073-.267 1.653-.297.114-.006.23-.01.347-.01 3.02 0 5.474 1.98 5.474 4.41 0 1.316-.723 2.554-1.986 3.398z"></path></svg>1            <span class="mobile_hide">комментарий</span>
+        </a>
+
+    </div>
+
+</div><div class="posts-list-item island clear  posts-list-item__richview " name="post-list-item" data-id="68909">
+
+    
+    <div class="posts-list-item__header">
+        <span class="posts-list-item__star " onclick="user.star( $(this) , {type: 1, target: 68909, $parent: $(this) , $value: $(this).find('.value') });">
+            <i class="icon-star-1" title="Добавить в избранное"></i>
+        </span>
+                        <span class="posts-list-item__time">
+                            11 дней назад                    </span>
+        <a class="posts-list-item__author" href="/startup/carrot-quest">
+                          <img class="ava" src="/upload/startups/s_5541b83e3c3a4.jpg" alt="Carrot quest">
+                        <span class="name" title="Платформа общения и маркетинга с пользователями">Carrot quest</span>
+        </a>
+
+        
+
+    </div>
+
+    <div class="posts-list-item__body clear">
+           
+                        
+        
+        <a class="posts-list-item__title" href="/startup/carrot-quest/blog/68909/kakie-bivayut-klienti-v-saas-b2b-i-kak-s-nimi-rabotat" >Какие бывают клиенты в SaaS B2B и как с ними работать</a>
+
+        <div class="posts-list-item__text mobile_pointer" onclick="user.mobileLink('/startup/carrot-quest/blog/68909/kakie-bivayut-klienti-v-saas-b2b-i-kak-s-nimi-rabotat')">
+                            Это статья о том, какие типы клиентов встречаются чаще всего в SaaS b2b и как стоит выстраивать взаимодействие с ними. Но также это признание в любви к нашим клиентам.                    </div>
+    </div>
+
+            <div class="posts-list-item__cover_big pointer p_rel"  onclick="spark.ajax.segue('/startup/carrot-quest/blog/68909/kakie-bivayut-klienti-v-saas-b2b-i-kak-s-nimi-rabotat', null, event)">
+            <img src="/upload/blogs_covers/feed_5fb7921ac7c1e.jpg" alt="Какие бывают клиенты в SaaS B2B и как с ними работать" />
+        </div>
+    
+
+    <div class="posts-list-item__footer">
+
+        
+            <a class="starred_list_bage fl_r js-emoji-included" href="/blogs/starred">
+                <span class="starred_list_bage--icon">😼 </span>
+                Выбор редакции
+            </a>
+
+        
+        
+        <a id ="postComments_68909" class="posts-list-item__counter" href="/startup/carrot-quest/blog/68909/kakie-bivayut-klienti-v-saas-b2b-i-kak-s-nimi-rabotat" data-post-data='{"to":"comments"}'>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path d="M13.346 2.81c-.675 0-1.327.088-1.94.247-1.022-.4-2.162-.626-3.364-.626C3.67 2.43.112 5.4.112 9.053c0 1.937.994 3.747 2.738 5.007v3.51l3.638-2.025c.514.085 1.036.13 1.553.13 2.168 0 4.135-.73 5.567-1.912.328-.01.656-.043.98-.095l3.074 1.71v-2.97c1.418-1.04 2.225-2.527 2.225-4.117.002-3.02-2.932-5.48-6.54-5.48zM8.042 14.607c-.516 0-1.038-.05-1.55-.144l-.188-.036-2.386 1.33v-2.26l-.237-.16c-1.59-1.062-2.5-2.624-2.5-4.284 0-3.062 3.08-5.554 6.863-5.554.61 0 1.203.066 1.767.188C8.004 4.66 6.805 6.36 6.805 8.29c0 2.61 2.19 4.796 5.11 5.343-1.102.614-2.436.973-3.873.973zm8.792-2.92l-.237.158v1.72l-1.82-1.014h-.005l-.185.036c-.41.077-.826.115-1.24.115-.044 0-.088 0-.133-.002-2.957-.057-5.34-2.012-5.34-4.408 0-1.864 1.44-3.46 3.472-4.105.518-.164 1.073-.267 1.653-.297.114-.006.23-.01.347-.01 3.02 0 5.474 1.98 5.474 4.41 0 1.316-.723 2.554-1.986 3.398z"></path></svg>0            <span class="mobile_hide">комментариев</span>
+        </a>
+
+    </div>
+
+</div><div class="posts-list-item island clear   " name="post-list-item" data-id="68911">
+
+    
+    <div class="posts-list-item__header">
+        <span class="posts-list-item__star " onclick="user.star( $(this) , {type: 6, target: 68911, $parent: $(this) , $value: $(this).find('.value') });">
+            <i class="icon-star-1" title="Добавить в избранное"></i>
+        </span>
+                        <span class="posts-list-item__time">
+                            11 дней назад                    </span>
+        <a class="posts-list-item__author" href="/user/107476">
+                          <img class="ava" src="https://pp.userapi.com/t3DQiV9-di03rr8r1c0NTTTXjjeegsBBjBciRA/Ju57bcrTdvw.jpg?ava=1" alt="Иван Бабайлов">
+                        <span class="name" title="">Иван Бабайлов</span>
+        </a>
+
+        
+
+    </div>
+
+    <div class="posts-list-item__body clear">
+           
+                        
+        
+            <div class="posts-list-item__cover pointer p_rel"  onclick="spark.ajax.segue('/user/107476/blog/68911/prodvizhenie-uslug-top-5-instrumentov-privlecheniya-klientov', null, event)">
+                                <img src="/upload/blogs_covers/l_5fb791a416aff.jpg" alt="Продвижение услуг: ТОП-5 инструментов привлечения клиентов" />
+            </div>
+        
+        <a class="posts-list-item__title" href="/user/107476/blog/68911/prodvizhenie-uslug-top-5-instrumentov-privlecheniya-klientov" >Продвижение услуг: ТОП-5 инструментов привлечения клиентов</a>
+
+        <div class="posts-list-item__text mobile_pointer" onclick="user.mobileLink('/user/107476/blog/68911/prodvizhenie-uslug-top-5-instrumentov-privlecheniya-klientov')">
+                            Рынок услуг - один из самых масштабных, по количеству игроков, во всем мире. Ежедневно мы сталкиваемся с десятками и сотнями компаний, которые оказывают услуги конкретно нам. Очевидно, что у конкуренции в услугах есть как положительные, так и отрицательные стороны.                    </div>
+    </div>
+
+    
+
+    <div class="posts-list-item__footer">
+
+        
+            <a class="starred_list_bage fl_r js-emoji-included" href="/blogs/starred">
+                <span class="starred_list_bage--icon">😼 </span>
+                Выбор редакции
+            </a>
+
+        
+        
+        <a id ="postComments_68911" class="posts-list-item__counter" href="/user/107476/blog/68911/prodvizhenie-uslug-top-5-instrumentov-privlecheniya-klientov" data-post-data='{"to":"comments"}'>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path d="M13.346 2.81c-.675 0-1.327.088-1.94.247-1.022-.4-2.162-.626-3.364-.626C3.67 2.43.112 5.4.112 9.053c0 1.937.994 3.747 2.738 5.007v3.51l3.638-2.025c.514.085 1.036.13 1.553.13 2.168 0 4.135-.73 5.567-1.912.328-.01.656-.043.98-.095l3.074 1.71v-2.97c1.418-1.04 2.225-2.527 2.225-4.117.002-3.02-2.932-5.48-6.54-5.48zM8.042 14.607c-.516 0-1.038-.05-1.55-.144l-.188-.036-2.386 1.33v-2.26l-.237-.16c-1.59-1.062-2.5-2.624-2.5-4.284 0-3.062 3.08-5.554 6.863-5.554.61 0 1.203.066 1.767.188C8.004 4.66 6.805 6.36 6.805 8.29c0 2.61 2.19 4.796 5.11 5.343-1.102.614-2.436.973-3.873.973zm8.792-2.92l-.237.158v1.72l-1.82-1.014h-.005l-.185.036c-.41.077-.826.115-1.24.115-.044 0-.088 0-.133-.002-2.957-.057-5.34-2.012-5.34-4.408 0-1.864 1.44-3.46 3.472-4.105.518-.164 1.073-.267 1.653-.297.114-.006.23-.01.347-.01 3.02 0 5.474 1.98 5.474 4.41 0 1.316-.723 2.554-1.986 3.398z"></path></svg>0            <span class="mobile_hide">комментариев</span>
+        </a>
+
+    </div>
+
+</div><div class="posts-list-item island clear   " name="post-list-item" data-id="68897">
+
+    
+    <div class="posts-list-item__header">
+        <span class="posts-list-item__star " onclick="user.star( $(this) , {type: 1, target: 68897, $parent: $(this) , $value: $(this).find('.value') });">
+            <i class="icon-star-1" title="Добавить в избранное"></i>
+        </span>
+                        <span class="posts-list-item__time">
+                            11 дней назад                    </span>
+        <a class="posts-list-item__author" href="/startup/byyd">
+                          <img class="ava" src="/upload/startups/s_54fa22718d221.jpg" alt="BYYD">
+                        <span class="name" title="Мобильная рекламная платформа">BYYD</span>
+        </a>
+
+        
+
+    </div>
+
+    <div class="posts-list-item__body clear">
+           
+                        
+        
+            <div class="posts-list-item__cover pointer p_rel"  onclick="spark.ajax.segue('/startup/byyd/blog/68897/brand-safety-v-reklame-aktualnoe-issledovanie-i-vazhnie-tsifri', null, event)">
+                                <img src="/upload/blogs_covers/l_5fb75a3f10858.jpg" alt="Brand Safety в рекламе: актуальное исследование и важные цифры" />
+            </div>
+        
+        <a class="posts-list-item__title" href="/startup/byyd/blog/68897/brand-safety-v-reklame-aktualnoe-issledovanie-i-vazhnie-tsifri" >Brand Safety в рекламе: актуальное исследование и важные цифры</a>
+
+        <div class="posts-list-item__text mobile_pointer" onclick="user.mobileLink('/startup/byyd/blog/68897/brand-safety-v-reklame-aktualnoe-issledovanie-i-vazhnie-tsifri')">
+                            Brand Safety предполагает заботу о том, чтобы реклама бренда не появлялась рядом с нежелательным контентом. Перевели актуальный опрос российских пользователей на эту тему.                    </div>
+    </div>
+
+    
+
+    <div class="posts-list-item__footer">
+
+        
+            <a class="starred_list_bage fl_r js-emoji-included" href="/blogs/starred">
+                <span class="starred_list_bage--icon">😼 </span>
+                Выбор редакции
+            </a>
+
+        
+        
+        <a id ="postComments_68897" class="posts-list-item__counter" href="/startup/byyd/blog/68897/brand-safety-v-reklame-aktualnoe-issledovanie-i-vazhnie-tsifri" data-post-data='{"to":"comments"}'>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path d="M13.346 2.81c-.675 0-1.327.088-1.94.247-1.022-.4-2.162-.626-3.364-.626C3.67 2.43.112 5.4.112 9.053c0 1.937.994 3.747 2.738 5.007v3.51l3.638-2.025c.514.085 1.036.13 1.553.13 2.168 0 4.135-.73 5.567-1.912.328-.01.656-.043.98-.095l3.074 1.71v-2.97c1.418-1.04 2.225-2.527 2.225-4.117.002-3.02-2.932-5.48-6.54-5.48zM8.042 14.607c-.516 0-1.038-.05-1.55-.144l-.188-.036-2.386 1.33v-2.26l-.237-.16c-1.59-1.062-2.5-2.624-2.5-4.284 0-3.062 3.08-5.554 6.863-5.554.61 0 1.203.066 1.767.188C8.004 4.66 6.805 6.36 6.805 8.29c0 2.61 2.19 4.796 5.11 5.343-1.102.614-2.436.973-3.873.973zm8.792-2.92l-.237.158v1.72l-1.82-1.014h-.005l-.185.036c-.41.077-.826.115-1.24.115-.044 0-.088 0-.133-.002-2.957-.057-5.34-2.012-5.34-4.408 0-1.864 1.44-3.46 3.472-4.105.518-.164 1.073-.267 1.653-.297.114-.006.23-.01.347-.01 3.02 0 5.474 1.98 5.474 4.41 0 1.316-.723 2.554-1.986 3.398z"></path></svg>0            <span class="mobile_hide">комментариев</span>
+        </a>
+
+    </div>
+
+</div><div class="posts-list-item island clear  posts-list-item__richview " name="post-list-item" data-id="68880">
+
+    
+    <div class="posts-list-item__header">
+        <span class="posts-list-item__star " onclick="user.star( $(this) , {type: 1, target: 68880, $parent: $(this) , $value: $(this).find('.value') });">
+            <i class="icon-star-1" title="Добавить в избранное"></i>
+        </span>
+                        <span class="posts-list-item__time">
+                            12 дней назад                    </span>
+        <a class="posts-list-item__author" href="/startup/ppc-world">
+                          <img class="ava" src="/upload/startups/s_5e4270da62e7e.jpg" alt="ppc.world">
+                        <span class="name" title="Учим работать с платным трафиком">ppc.world</span>
+        </a>
+
+        
+
+    </div>
+
+    <div class="posts-list-item__body clear">
+           
+                        
+        
+        <a class="posts-list-item__title" href="/startup/ppc-world/blog/68880/kakuyu-rasprodazhu-provesti-v-chernuyu-pyatnitsu-obzor-mehanik" >Какую распродажу провести в Черную пятницу: обзор механик</a>
+
+        <div class="posts-list-item__text mobile_pointer" onclick="user.mobileLink('/startup/ppc-world/blog/68880/kakuyu-rasprodazhu-provesti-v-chernuyu-pyatnitsu-obzor-mehanik')">
+                            27 ноября в России пройдет Черная пятница. И если вы еще не определились, какую акцию запускать в этом году, то читайте обзор результативных механик от Artics Internet Solutions.                    </div>
+    </div>
+
+            <div class="posts-list-item__cover_big pointer p_rel"  onclick="spark.ajax.segue('/startup/ppc-world/blog/68880/kakuyu-rasprodazhu-provesti-v-chernuyu-pyatnitsu-obzor-mehanik', null, event)">
+            <img src="/upload/blogs_covers/feed_5fb698a753a59.jpg" alt="Какую распродажу провести в Черную пятницу: обзор механик" />
+        </div>
+    
+
+    <div class="posts-list-item__footer">
+
+        
+            <a class="starred_list_bage fl_r js-emoji-included" href="/blogs/starred">
+                <span class="starred_list_bage--icon">😼 </span>
+                Выбор редакции
+            </a>
+
+        
+        
+        <a id ="postComments_68880" class="posts-list-item__counter" href="/startup/ppc-world/blog/68880/kakuyu-rasprodazhu-provesti-v-chernuyu-pyatnitsu-obzor-mehanik" data-post-data='{"to":"comments"}'>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path d="M13.346 2.81c-.675 0-1.327.088-1.94.247-1.022-.4-2.162-.626-3.364-.626C3.67 2.43.112 5.4.112 9.053c0 1.937.994 3.747 2.738 5.007v3.51l3.638-2.025c.514.085 1.036.13 1.553.13 2.168 0 4.135-.73 5.567-1.912.328-.01.656-.043.98-.095l3.074 1.71v-2.97c1.418-1.04 2.225-2.527 2.225-4.117.002-3.02-2.932-5.48-6.54-5.48zM8.042 14.607c-.516 0-1.038-.05-1.55-.144l-.188-.036-2.386 1.33v-2.26l-.237-.16c-1.59-1.062-2.5-2.624-2.5-4.284 0-3.062 3.08-5.554 6.863-5.554.61 0 1.203.066 1.767.188C8.004 4.66 6.805 6.36 6.805 8.29c0 2.61 2.19 4.796 5.11 5.343-1.102.614-2.436.973-3.873.973zm8.792-2.92l-.237.158v1.72l-1.82-1.014h-.005l-.185.036c-.41.077-.826.115-1.24.115-.044 0-.088 0-.133-.002-2.957-.057-5.34-2.012-5.34-4.408 0-1.864 1.44-3.46 3.472-4.105.518-.164 1.073-.267 1.653-.297.114-.006.23-.01.347-.01 3.02 0 5.474 1.98 5.474 4.41 0 1.316-.723 2.554-1.986 3.398z"></path></svg>0            <span class="mobile_hide">комментариев</span>
+        </a>
+
+    </div>
+
+</div><div class="posts-list-item island clear   " name="post-list-item" data-id="68877">
+
+    
+    <div class="posts-list-item__header">
+        <span class="posts-list-item__star " onclick="user.star( $(this) , {type: 6, target: 68877, $parent: $(this) , $value: $(this).find('.value') });">
+            <i class="icon-star-1" title="Добавить в избранное"></i>
+        </span>
+                        <span class="posts-list-item__time">
+                            12 дней назад                    </span>
+        <a class="posts-list-item__author" href="/user/76366">
+                          <img class="ava" src="upload/profile/s_5fb9aaa979c74.jpg" alt="Design Glory">
+                        <span class="name" title="Перевод статей передовых зарубежных специалистов, UX инсайды от топовых брендов.
+telgram : https://t.me/uxidesign">Design Glory</span>
+        </a>
+
+        
+
+    </div>
+
+    <div class="posts-list-item__body clear">
+           
+                        
+        
+            <div class="posts-list-item__cover pointer p_rel"  onclick="spark.ajax.segue('/user/76366/blog/68877/sketch-poluchil-bolshoj-redizajn-pod-macos-big-sur', null, event)">
+                                <img src="/upload/blogs_covers/l_5fb6943e48bc6.jpg" alt="Sketch получил большой редизайн под macOS Big Sur" />
+            </div>
+        
+        <a class="posts-list-item__title" href="/user/76366/blog/68877/sketch-poluchil-bolshoj-redizajn-pod-macos-big-sur" >Sketch получил большой редизайн под macOS Big Sur</a>
+
+        <div class="posts-list-item__text mobile_pointer" onclick="user.mobileLink('/user/76366/blog/68877/sketch-poluchil-bolshoj-redizajn-pod-macos-big-sur')">
+                            Sketch получил масштабный редизайн, который связан с выходом macOS Big Sur. Теперь он полностью соответствует новому дизайну, который был представлен в последней версии macOS Big Sur.                    </div>
+    </div>
+
+    
+
+    <div class="posts-list-item__footer">
+
+        
+            <a class="starred_list_bage fl_r js-emoji-included" href="/blogs/starred">
+                <span class="starred_list_bage--icon">😼 </span>
+                Выбор редакции
+            </a>
+
+        
+        
+        <a id ="postComments_68877" class="posts-list-item__counter" href="/user/76366/blog/68877/sketch-poluchil-bolshoj-redizajn-pod-macos-big-sur" data-post-data='{"to":"comments"}'>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path d="M13.346 2.81c-.675 0-1.327.088-1.94.247-1.022-.4-2.162-.626-3.364-.626C3.67 2.43.112 5.4.112 9.053c0 1.937.994 3.747 2.738 5.007v3.51l3.638-2.025c.514.085 1.036.13 1.553.13 2.168 0 4.135-.73 5.567-1.912.328-.01.656-.043.98-.095l3.074 1.71v-2.97c1.418-1.04 2.225-2.527 2.225-4.117.002-3.02-2.932-5.48-6.54-5.48zM8.042 14.607c-.516 0-1.038-.05-1.55-.144l-.188-.036-2.386 1.33v-2.26l-.237-.16c-1.59-1.062-2.5-2.624-2.5-4.284 0-3.062 3.08-5.554 6.863-5.554.61 0 1.203.066 1.767.188C8.004 4.66 6.805 6.36 6.805 8.29c0 2.61 2.19 4.796 5.11 5.343-1.102.614-2.436.973-3.873.973zm8.792-2.92l-.237.158v1.72l-1.82-1.014h-.005l-.185.036c-.41.077-.826.115-1.24.115-.044 0-.088 0-.133-.002-2.957-.057-5.34-2.012-5.34-4.408 0-1.864 1.44-3.46 3.472-4.105.518-.164 1.073-.267 1.653-.297.114-.006.23-.01.347-.01 3.02 0 5.474 1.98 5.474 4.41 0 1.316-.723 2.554-1.986 3.398z"></path></svg>0            <span class="mobile_hide">комментариев</span>
+        </a>
+
+    </div>
+
+</div>        </div>
+                    <a id="mainLoadMore" href="/blogs/general/2" class="load-more-button load-more-button--big ajaxfree" onclick="spark.ajax.loadMore.call( this , { url : '/blogs/general/1' , blocksWrapper : '.articles'})">
+                <i class="icon-down-dir"></i>
+                Показать следующие
+            </a>
+                <div class="mobile_cross_promo_block show_only_in_mobile">
+            <div class="banner-300x242 mobile" style="text-align:center;">
+  <div id="adfox_157673814048596261"></div>
+  <script>
+		window.Ya.adfoxCode.create({
+			ownerId: 304557,
+			containerId: 'adfox_157673814048596261',
+			params: {pp:'h',ps:'dpyj',p2:'gquu'}
+		});
+  </script>
+</div>
+<style>
+  @media screen and (min-width: 980px) {
+    .banner-300x242.mobile {
+      display: none;
+    }
+  }
+</style>            <a class="about_promo ajaxfree" name="js-about-promo--r-col" href="/promo" rel="nofollow">Разместить своё объявление</a>
+        </div>
+    </div>
+</div>
+
+<div class="subscribe_block hide" id="digestSubscribeBlock"></div></div>
+
+
+        </div>
+    </div>
+    <div class="site_footer">
+    <div class="center-col">
+        <div class="top">
+            <div class="submenu fl_r">
+                <a id="f_startup_spark" href="/startup/spark">О проекте</a>
+                <a id="f_startup_spark_wall" href="/startup/spark/wall">Связь с командой</a>
+                <!--<a href="/promo">Реклама</a>-->
+            </div>
+            <div class="logo">
+                <a href="/"><i class="spark-logo-footer"></i></a>
+                <div class="desc">Тусовка технологических проектов</div>
+            </div>
+            <div class="navigation">
+                <a id="f_" >Главная</a>
+                <a id="f_startups" href="/startups">Проекты</a>
+                <a class="ajaxfree" href="/media.pdf">Реклама</a>
+                <!--<a href="/jobs">Вакансии</a>-->
+                <a id="f_partner_program" href="/partner_program">Партнерская программа</a>
+            </div>
+        </div>
+        <!-- <a class="bottom_link fl_r" href="//cmtt.ru">ИД «Комитет»</a> -->
+        <!-- <a class="bottom_link fl_r" href="mailto:team@spark.ru">team@spark.ru</a> -->
+        <div class="footer_icons">
+          <!-- <a rel="nofollow" class="android big_button store_icon google" href="https://play.google.com/store/apps/details?id=ru.spark.spark">
+              Скачать в Google Play
+          </a> -->
+            <a rel="nofollow" class="footer-social vk" href="https://vk.com/gospark"><i class="icon-vkontakte"></i></a>
+            <a rel="nofollow" class="footer-social fb" href="https://facebook.com/spark.ru"><i class="icon-facebook"></i></a>
+            <a rel="nofollow" class="footer-social tw" href="https://twitter.com/go_sparkru"><i class="icon-twitter"></i></a>
+            <!-- <a rel="nofollow" class="footer-social gp" href="https://plus.google.com/+SparkRuProject"><i class="icon-gplus"></i></a> -->
+            <a rel="nofollow" class="footer-social telegram" href="https://telegram.me/spark_project"><i class="icon-telegram"></i></a>
+            <a rel="nofollow" class="footer-social inst" href="https://instagram.com/spark_project"><i class="icon-instagram"></i></a>
+            <div class="rss_selector" id="footerRssSelector">
+                <div class="footer-social btn">
+                    <i class="icon-rss" onclick="$('#footerRssSelector').toggleClass('toggled')"></i>
+                </div>
+                <div class="items">
+                    <a rel="nofollow" class="item ajaxfree" target="_blank" href="/blogs/general/rss"><i class="rss_icon"></i><span>Главное</span></a>
+                    <a rel="nofollow" class="item ajaxfree" target="_blank" href="/blogs/new/rss"><i class="rss_icon"></i><span>Свежее</span></a>
+                    <a rel="nofollow" class="item ajaxfree" target="_blank" href="/feedback/rss"><i class="rss_icon"></i><span>Вопросы</span></a>
+                                        <a rel="nofollow" class="item ajaxfree diff" target="_blank" href="/startups/rss"><i class="rss_icon"></i><span>Проекты</span></a>
+                    <!--<a rel="nofollow" class="item ajaxfree diff" target="_blank" href="/jobs/rss"><i class="rss_icon"></i><span>Вакансии</span></a>-->
+                </div>
+            </div>
+        </div>
+        <div class="site_footer__rules">
+            Редакция <a href="mailto:team@spark.ru">team@spark.ru</a>Техническая поддержка <a href="mailto:help@spark.ru">help@spark.ru</a>Продвижение <a href="mailto:adv@spark.ru">adv@spark.ru</a>
+        </div>
+        <div class="site_footer__rules">
+            <a href="https://spark.ru/upload/pdf/rules/rules.pdf">Правила пользования сайтом</a><a href="https://spark.ru/upload/pdf/rules/policy.pdf">Политика обработки персональных данных</a>
+        </div>
+    </div>
+</div>    <div class="scroll_up mobile_hide">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 886 20 20"><path d="M.227 900.074c0-.17.065-.32.196-.45l9.126-9.127c.13-.13.28-.196.45-.196.17 0 .32.066.45.197l9.127 9.126c.13.13.196.28.196.45s-.065.32-.196.45l-.98.98c-.13.13-.28.195-.45.195-.17 0-.32-.065-.45-.195L10 893.806l-7.697 7.697c-.13.13-.28.195-.45.195-.17 0-.32-.065-.45-.195l-.98-.98c-.13-.13-.196-.28-.196-.45z"/></svg>    </div>
+    <div class="popup_wrap hide" id="popupWrapper" onclick="spark.popup.close();">
+        <div class="popup" id="popup" onclick="event.stopPropagation();">
+            <div class="title">
+                <span id="popupTitle">Внимание</span>
+                <i class="close fl_r" id="popupClose" title="Закрыть" onclick="spark.popup.close();"></i>
+            </div>
+            <div class="body" id="popupBody"></div>
+        </div>
+    </div>
+    <div class="photo_viewer_wrap hide" onclick="spark.gallery.close();">
+        <div class="nav_l" onclick="event.stopPropagation(); spark.gallery.prev()"></div>
+        <div class="photo_viewer" onclick="event.stopPropagation();"></div>
+        <div class="zoom" onclick="event.stopPropagation(); spark.gallery.openImage()" title="Открыть изображение"><i class="icon-search"></i></div>
+    </div>
+    <div id="fb-root"></div>
+    <div id="banner-overlay" onclick="callback.hideBanner()"></div>
+    <div class="notifies_root" id="notifies_root"></div>
+        <div id="cookies-using-message">
+      <div class="center-col center-plus">
+        <p class="controls-cookie">
+          <button id="accept-cookies">Ок</button>
+        </p>
+        <p class="message">
+          Spark использует cookie-файлы. С их помощью мы улучшаем работу нашего сайта и ваше взаимодействие с ним.
+        </p>
+      </div>
+    </div>
+    <style>
+      #cookies-using-message {
+        display: none;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        align-items: center;
+        padding: 20px 0px;
+        z-index: 999999999;
+        color: #000;
+        letter-spacing: 0;
+        background: #EDF2FB 0% 0% no-repeat padding-box;
+        border: 1px solid #E6E9F2;
+      }
+      #accept-cookies {
+        background: #5D87C0 0% 0% no-repeat padding-box;
+        border-radius: 4px;
+        width: 50px;
+        float: right;
+        cursor: pointer;
+        color: #fff;
+        text-decoration: none;
+        padding: 6px 12px;
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 1.42857143;
+        text-align: center;
+      }
+      .center-plus {
+        position: relative;
+        left: -150px;
+        height: auto;
+        overflow: hidden;
+      }
+      .center-plus .message {
+        float: none;
+        width: auto;
+        overflow: hidden;
+        font-size: 14px;
+      }
+      @media all and (max-width: 1240px) {
+        .center-plus {
+          left: 0px;
+        }
+      }
+    </style>
+    <script>
+			ready(function(){
+				if (!spark.core.getCookie('accept-cookies')) {
+					$('#cookies-using-message').css('display', 'flex');
+					$('#accept-cookies').click(function(){
+						$('#cookies-using-message').slideUp(300, function(){
+							spark.core.setCookie('accept-cookies', 1, new Date((+new Date) + 1000*86400*364*2), '/');
+						})
+					});
+				}
+			});
+    </script>
+                            <script type="text/javascript" >
+          (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+          (window, document, "script", "https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js", "ym");
+          ym(21611071, "init", {clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true});
+        </script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+            ga('create', 'UA-62863381-1', 'auto');
+            ga('send', 'pageview');
+        </script>
+        <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase.js"></script>
+        <script src="/public/js/firebase_subscribe.js?v=1555669320" type="text/javascript"></script>
+        <style>.grecaptcha-badge{display:none;}</style>
+    
+    </body>
+</html>
